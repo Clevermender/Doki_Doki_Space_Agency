@@ -1,0 +1,25 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 31, in script call
+    call script_main from _call_script_main
+  File "game/splash.rpy", line 286, in script
+    return
+Exception: Could not find return label (u'C:\\Users\\Sebastian\\Desktop\\RenPy\\renpy-6.99.13-sdk\\DDSA/game/script_main.rpy', 1520013329, 0).
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 31, in script call
+    call script_main from _call_script_main
+  File "game/splash.rpy", line 286, in script
+    return
+  File "C:\Users\Sebastian\Desktop\RenPy\renpy-6.99.13-sdk\renpy\ast.py", line 1400, in execute
+    next_node(renpy.game.context().lookup_return(pop=True))
+  File "C:\Users\Sebastian\Desktop\RenPy\renpy-6.99.13-sdk\renpy\execution.py", line 586, in lookup_return
+    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
+Exception: Could not find return label (u'C:\\Users\\Sebastian\\Desktop\\RenPy\\renpy-6.99.13-sdk\\DDSA/game/script_main.rpy', 1520013329, 0).
+
+Windows-8-6.2.9200
+Ren'Py 6.99.13.2919
+Doki Doki Space Agency 0.1.0
