@@ -148,54 +148,7 @@ label script_main:
             call dont_have_time
         "I do not have to be quick.":
             call do_have_time
-
-        
-label dont_have_time:
-    "I need to get this done quickly."
-    "And I need to find Natsuki and Yuri."
-    "I start running."
-
-    
-label norm_route:
-    
-    "The floor is wet."
-    $ y_name = "???"
-    "I almost slip next to the water fountains."
-    y "[player]?"
-    "I hear someone behind me."
-    "I almost slip again trying to stop and."
-    mc "Yuri?"
-    $ y_name = "Yuri"
-    show yuri 1e at t11 zorder 2
-    y "I heard you shout my name."
-    y 3f "Is something wrong?"
-    mc "The club is about to start."
-    mc "Monika has something important to announce."
-    y "What is it abo-"
-    mc "I dont know!"
-    show yuri 4c
-    y "I'm sorry..."
-    mc "For what?"
-    y "I..."
-    mc "You did nothing wrong."
-    mc "Im just a little bit stressed out."
-    y 4a "Are you sure?"
-    mc "Yes..."
-    y 1l "Alright."
-    y 1b "Lets go."
-    mc "Wait, we need to find Natsuki first."
-    y 1j "I saw her by the vending machines just a few minutes ago."
-    mc "Can you go and get her?"
-    mc "I will go and tell the others."
-    y 1k "I will try."
-    
-    return
-    
-label do_have_time:
-    "I dont need to hurry."
-    
-    return
-     
+            
     scene black
     "Skipping to launch dayday."
     pause 5.0
@@ -235,6 +188,58 @@ label do_have_time:
     y "W-we are at 500 meter per secound."
     "She sound excited and less worried."
     "Almost like last week, when she resited her poem in front of everyone."
-    
+    m "We have a altitude of 1.6 km."
+    "20 secounds has now passed since the launch."
+    m "Thats stage 1."
+    m "Booster seperation comfired."
+    "Natsuki was about to say something but stoped herself."
+    "She looked at her monitor with a worried expression."
+    n "One of the boosters did not seperate correctly."
+    n "The decoupler malfunctioned and broke, so the seperation thruster instead ripped the booster away."
+    n "Now part of the decoupler is still on the rocket."
+    n "And possibly some wiring is exposed."
     return
+
+        
+label dont_have_time:
+    "I need to get this done quickly."
+    "And I need to find Natsuki and Yuri."
+    "I start running."
+    "The floor is wet."
+    $ y_name = "???"
+    "I almost slip next to the water fountains."
+    y "[player]?"
+    "I hear someone behind me."
+    "I almost slip again trying to stop."
+    mc "Yuri?"
+    $ y_name = "Yuri"
+    show yuri 1e at t11 zorder 2
+    y "I heard you shout my name."
+    y 3f "Is something wrong?"
+    mc "The club is about to start."
+    mc "Monika has something important to announce."
+    y "What is it abo-"
+    mc "I dont know!"
+    show yuri 4c
+    y "I'm sorry..."
+    mc "For what?"
+    y "I..."
+    mc "You did nothing wrong."
+    mc "Im just a little bit stressed out."
+    y 4a "Are you sure?"
+    mc "Yes..."
+    y 1l "Alright."
+    y 1b "Lets go."
+    mc "Wait, we need to find Natsuki first."
+    y 1j "I saw her by the vending machines just a few minutes ago."
+    mc "Can you go and get her?"
+    mc "I will go and tell the others."
+    y 1k "I will try."
+    return
+    
+label do_have_time:
+    "I dont need to hurry."
+    return
+
+    
     
