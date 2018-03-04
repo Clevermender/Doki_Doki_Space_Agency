@@ -1,9 +1,0 @@
-﻿I'm sorry, but errors were detected in your script. Please correct the
-errors listed below, and try again.
-
-
-File "game/script_main.rpy", line 199: expected ':' not found.
-    label launch_day    
-                        ^
-
-Ren'Py Version: Ren'Py 6.99.13.2919
