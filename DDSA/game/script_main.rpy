@@ -131,7 +131,7 @@ label script_main:
     $ style.say_dialogue = style.normal
     "The first one to look for is Yuri."
     $ style.say_dialogue = style.edited
-    "{cps=*2}Becouse Yuri is the best girl out of them all.{/cps}{nw}"
+    "{cps=*2}Becouse Yuri is the best girl out of them all.{/cps}{nw}" #WHAT A SCAM I DEMAND A REFUND /s
     "{cps=*2}And I'm going to land on Dr. Edmunds planet to wait for the dokis to be real.{/cps}{nw}"
     "{cps=*3}Even if that means waves big as mountians.{/cps}{nw}"
     "{cps=*3}And all of my friends and my other familly to beging dead by the time the dokis are real.{/cps}{nw}"
@@ -150,7 +150,7 @@ label script_main:
         "I do not have to be quick.":
             call do_have_time
             
-    scene black
+    scene black #Replace with rocket
     "Skipping to launch dayday."
     pause 5.0
     
@@ -187,7 +187,7 @@ label script_main:
     "She then tried to reach it with the arm, but stoped and then looked around her."
     "She then returned to monitor the rocket."
     y "W-we are at 500 meter per secound."
-    "She sound excited and less worried."
+    "She sounds excited and less worried."
     "Almost like last week, when she resited her poem in front of everyone."
     m "We have a altitude of 1.6 km."
     "20 secounds has now passed since the launch."
