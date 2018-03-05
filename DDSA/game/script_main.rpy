@@ -1,5 +1,6 @@
 label script_main:
-    
+    scene dark
+    stop music fadeout 2.0
     "Okay, time to run scenario number 11997."
     
     scene bg residential_day
@@ -71,7 +72,7 @@ label script_main:
     mc "Why are you talking about your posture?"
     show monika 2i
     "Monika looks at me with judgeing look."
-    "I just remember my conversation with yuri last week."
+    "I just remember my conversation with Yuri last week."
     mc "Ah, wait."
     mc "Never mind..."
     
@@ -92,7 +93,7 @@ label script_main:
     "I looked at them again from a distance and saw that the icon is the same as the emblem on the arm of the man."
     "I sigh and walk to one of the desks."
     "Monika is constantly looking in my direction."
-    "Proberly to check that I'm not trying to look at the papers."
+    "Probably to check that I'm not trying to look at the papers."
     
     "After about five minutes, the door opens."
     "Sayori walks in."
@@ -115,7 +116,7 @@ label script_main:
     mc "So i will search for Yuri and Natsuki."
     s 2c "But i sai-"
     "Monika interupts Sayori."
-    m 4d "Bring our clubmembers home."
+    m 4d "Bring our clubmembers home." #The Dokian
     m 3n "To the club i mean"
     hide monika
     hide sayori
