@@ -16,8 +16,8 @@ init -100 python:
 init python:
     menu_trans_time = 1
     #The default splash message, originally shown in Act 1 and Act 4
-    splash_message_default = "This game is an unofficial fan work, unaffiliated with Team Salvato."
-    #Optional splash messages, originally chosen at random in Act 2 and Act 3
+    splash_message_default = "I forgot to change this back when i tired tested with this text."
+    #Optional splash messages, originally chosen at random in Act 2 and Act 3 This game is an unofficial fan work, unaffiliated with Team Salvato
     splash_messages = [
     "Please support Doki Doki Literature Club."
     "Monika is watching you code."
@@ -31,7 +31,7 @@ image menu_logo:
     subpixel True
     xcenter 240
     ycenter 120
-    zoom 0.60
+    zoom 0.80
     menu_logo_move
 
 image menu_bg:

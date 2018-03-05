@@ -1,6 +1,5 @@
 label script_main:
-    scene dark
-    stop music fadeout 2.0
+    
     "Okay, time to run scenario number 11997."
     
     scene bg residential_day
@@ -30,7 +29,7 @@ label script_main:
     "I cant see what they are doing."
     "They had a wierd icon in the top left corner."
     "It looks like they are finished with whatever they did."
-    "The man leaves and i walk up to Monika."
+    "The man leaves and I walk up to Monika."
     
     show monika 1b at t11 zorder 2
     m "Hi, [player]."
@@ -47,9 +46,9 @@ label script_main:
     show monika 1h at face
     m 2g "{cps=*1}What d-{/cps}{nw}"
     "I got scared and tried to evade."
-    "But i was between two desks."
-    "I was supposed to place the foot on the floor, but instead, i place it on one of the desk supporting legs."
-    "And becouse my reaction time is very bad, I did not stop the movement."
+    "But I was between two desks."
+    "I was supposed to place the foot on the floor, but instead, I place it on one of the desk supportiv legs."
+    "And becouse my reaction time is very bad, i did not stop the movement."
     "I got some extra speed and instead of trying to stop, I rushed right into Monika."
     "Both me and her fall to the ground."
     m "{cps=*1}Whaa!?{/cps}{nw}"
@@ -72,10 +71,9 @@ label script_main:
     mc "Why are you talking about your posture?"
     show monika 2i
     "Monika looks at me with judgeing look."
-    "I just remember my conversation with Yuri last week."
+    "I just remember my conversation with yuri last week."
     mc "Ah, wait."
     mc "Never mind..."
-    
     m "Your not as dense as a black hole, are you?"
     m 4k "Just kidding, [player]."
     m 4e "I know it was a accident."
@@ -93,7 +91,7 @@ label script_main:
     "I looked at them again from a distance and saw that the icon is the same as the emblem on the arm of the man."
     "I sigh and walk to one of the desks."
     "Monika is constantly looking in my direction."
-    "Probably to check that I'm not trying to look at the papers."
+    "Proberly to check that I'm not trying to look at the papers."
     
     "After about five minutes, the door opens."
     "Sayori walks in."
@@ -116,7 +114,7 @@ label script_main:
     mc "So i will search for Yuri and Natsuki."
     s 2c "But i sai-"
     "Monika interupts Sayori."
-    m 4d "Bring our clubmembers home." #The Dokian
+    m 4d "Bring our clubmembers home."
     m 3n "To the club i mean"
     hide monika
     hide sayori
@@ -131,7 +129,7 @@ label script_main:
     $ style.say_dialogue = style.normal
     "The first one to look for is Yuri."
     $ style.say_dialogue = style.edited
-    "{cps=*2}Becouse Yuri is the best girl out of them all.{/cps}{nw}" #WHAT A SCAM I DEMAND A REFUND /s
+    "{cps=*2}Becouse Yuri is the best girl out of them all.{/cps}{nw}"
     "{cps=*2}And I'm going to land on Dr. Edmunds planet to wait for the dokis to be real.{/cps}{nw}"
     "{cps=*3}Even if that means waves big as mountians.{/cps}{nw}"
     "{cps=*3}And all of my friends and my other familly to beging dead by the time the dokis are real.{/cps}{nw}"
@@ -150,7 +148,18 @@ label script_main:
         "I do not have to be quick.":
             call do_have_time
             
-    scene black #Replace with rocket
+    scene black
+    "Time to choose who to help."
+    
+    menu:
+        "I should help..."
+        
+        "Natsuki.":
+            $ nat_engi = True
+        "Others.":
+            $ nat_engi = False
+            
+            pass
     "Skipping to launch dayday."
     pause 5.0
     
@@ -187,7 +196,7 @@ label script_main:
     "She then tried to reach it with the arm, but stoped and then looked around her."
     "She then returned to monitor the rocket."
     y "W-we are at 500 meter per secound."
-    "She sounds excited and less worried."
+    "She sound excited and less worried."
     "Almost like last week, when she resited her poem in front of everyone."
     m "We have a altitude of 1.6 km."
     "20 secounds has now passed since the launch."
@@ -199,9 +208,43 @@ label script_main:
     n "The decoupler malfunctioned and broke, so the seperation thruster instead ripped the booster away."
     n "Now part of the decoupler is still on the rocket."
     n "And possibly some wiring is exposed."
+    m "But what about the center of mass?"
+    n "I don't know..."
+    n "Ask the one that can see the trajectory maybe!"
+    m "Eh..."
+    m "Yuri, by how much are we diverting away from our planned trajectory?"
+    y "About z-zero point two degrees to the south..."
+    y "Rotation speed is increasing by zero point zero eight dergrees per secound."
+    if nat_engi:
+        m "Alright, [player]!"
+        m "You worked with the rocket's controll systems the most."
+        m "Should we roll the rocket 90 degrees so that the center of mass is pointing towards the east?"
+        m "Or should we let the rocket automaticly adjust the course to componsate for the tilting?"
+        mc "Well..."
+        mc "Okay, lets do this."
+        menu:
+            mc "The best thing to do is."
+            
+            "Let's roll the rocket.":
+                $ manual_ctrl = True
+                call launch_roll
+            "Let the computer take care of it.":
+                $ manual_ctrl = False
+                call launch_auto
+        mc "Okay..."
+    else:
+        m "Alright, Natsuki."
+        m "You worked with the rocket's controll systems the most."
+        m "Should we roll the rocket 90 degrees so that the center of mass is pointing towards the east?"
+        m "Or should we let the rocket automaticly adjust the course to componsate for the tilting?"
+        n "It is doing good right now, so we should not change anything."
+        n "Automatic is the best way."
+        m "okay, let it be."
+        m "Auto will take care of this."
+        "And so it did."
+        "The launch continiued as normal."
     return
-
-        
+    
 label dont_have_time:
     "I need to get this done quickly."
     "And I need to find Natsuki and Yuri."
@@ -241,6 +284,26 @@ label dont_have_time:
 label do_have_time:
     "I dont need to hurry."
     return
-
     
+label launch_roll:
+    mc "Let's roll the rocket."
+    m "Sounds risky, but let's do it."
+    m "Yuri, roll the rocket 90 degrees on."
+    y "Okay... r-rolling."
+    "Yuri moves the the mouse and clicks a few times before starting to type."
+    "She then hits enter."
+    "On one of the cameras we saw the roll thrusters on the rocket light up as it began the 90 degree roll."
+    "The rocket has now 25 degrees to go, and the reverse thrusters started to slow the rolling so that we don't roll to far."
+    "Once we had rolled 90 degrees, the thrusters stoped."
+    "But one of the thrusters started to burn with full thrust."
+    "The rocket started to shake as it rotated on both the pitch and roll axis."
+    m "Yuri!"
+    m "Engage the eme-"
+    "Just as she said that, all the cameras went black and and all of the monitors and screens recived the lose Of signal message."
+    return
     
+label launch_auto:
+    mc "The rocket can fix this automaticly."
+    "And so it did."
+    "The launch continiued as normal."
+    return
