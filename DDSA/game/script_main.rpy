@@ -43,14 +43,14 @@ label script_main:
     "Monika went to the teacher's desk and put the papers on it."
     "I walked to the desk to have a look at the papers."
     pause 0.05
-    "As i do, Monika jump infront of me out of nowhere."
+    "As i do, Monika jumps infront of me out of nowhere."
     show monika 1h at face
     m 2g "{cps=*1}What d-{/cps}{nw}"
     "I got scared and tried to evade."
     "But i was between two desks."
-    "I was supposed to place the foot on the floor, but instead, i place it on one of the desk supportiv legs."
-    "And becouse my reaction time is very bad, i did not stop the movement."
-    "I got some extra speed and instead of trying to stop, i rushed right into monika."
+    "I was supposed to place the foot on the floor, but instead, i place it on one of the desk supporting legs."
+    "And becouse my reaction time is very bad, I did not stop the movement."
+    "I got some extra speed and instead of trying to stop, I rushed right into Monika."
     "Both me and her fall to the ground."
     m "{cps=*1}Whaa!?{/cps}{nw}"
     scene black
