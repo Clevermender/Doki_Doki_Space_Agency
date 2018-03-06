@@ -93,7 +93,7 @@ label script_main:
     "I looked at them again from a distance and saw that the icon is the same as the emblem on the arm of the man."
     "I sigh and walk to one of the desks."
     "Monika is constantly looking in my direction."
-    "Proberly to check that I'm not trying to look at the papers."
+    "Probably to check that I'm not trying to look at the papers."
 
     "After about five minutes, the door opens."
     "Sayori walks in."
@@ -137,7 +137,7 @@ label script_main:
     "{cps=*3}And all of my friends and my other family will be dead by the time the dokis are real.{/cps}{nw}" #There will be more refrences to both movies, and possibly real events.
     $ style.say_dialogue = style.normal
     $ del _history_list[-4:]
-    "Becouse Yuri is closer to the clubroom then Natsuki proberly is." #yo what. Answer: I proberly spelled answer wrong, and it did make sense in swedish.
+    "Becouse Yuri is closer to the clubroom then Natsuki probably is." #yo what. Answer: I probably spelled answer wrong, and it did make sense in swedish.
     $ style.say_dialogue = style.edited
     "{cps=*2}I turned around the corner to the fountain Yuri cut herself at.{/cps}{nw}"
     $ style.say_dialogue = style.normal
