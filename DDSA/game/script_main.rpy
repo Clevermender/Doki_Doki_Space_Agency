@@ -132,12 +132,12 @@ label script_main:
     "The first one to look for is Yuri."
     $ style.say_dialogue = style.edited
     "{cps=*2}Becouse Yuri is the best girl out of them all.{/cps}{nw}" #i demand a refund
-    "{cps=*2}And I'm going to land on Dr. Edmunds planet to wait for the dokis to be real.{/cps}{nw}" #Dokistellar
+    "{cps=*2}And I'm going to land on Dr. Edmunds planet to wait for the dokis to be real.{/cps}{nw}" #Dokistellar, Mc was friends with the dokis, but he was never meant to stop there.
     "{cps=*3}Even if that means waves big as mountians.{/cps}{nw}"
-    "{cps=*3}And all of my friends and my other family will be dead by the time the dokis are real.{/cps}{nw}"
+    "{cps=*3}And all of my friends and my other family will be dead by the time the dokis are real.{/cps}{nw}" #There will be more refrences to both movies, and possibly real events.
     $ style.say_dialogue = style.normal
     $ del _history_list[-4:]
-    "Becouse she is the closest of her and Natsuki, what i know at least." #yo what
+    "Becouse Yuri is closer to the clubroom then Natsuki proberly is." #yo what. Answer: I proberly spelled answer wrong, and it did make sense in swedish.
     $ style.say_dialogue = style.edited
     "{cps=*2}I turned around the corner to the fountain Yuri cut herself at.{/cps}{nw}"
     $ style.say_dialogue = style.normal
@@ -147,10 +147,20 @@ label script_main:
         "Do you really have time to walk?"
         "I do not have time.":
             call dont_have_time
-        "I do not have to be quick.": #this may be confusing, so the wording might have to be changed.
+        "No need to hurry.": #this may be confusing, so the wording might have to be changed.
             call do_have_time
 
     scene black
+    "Skipping to when everyone is in the classroom." #This part is not connected to who to help, and fix the positions of where to show the girls.
+    scene bg club_day2
+    show monika 1b at f22 zorder 2
+    m "Okay everyone!"
+    m "I have some news."
+    show sayori 1n at t21 zorder 2
+    s "About what?"
+    m 2j "We are starting a new project for the club."
+    show yuri 2f at l33 zorder 2
+
     "Time to choose who to help."
     menu:
         "I should help..."
@@ -161,7 +171,7 @@ label script_main:
             $ nat_engi = False
 
             pass
-    #monika still hasn't told them about the space agency yet...
+    #I did not want to forget to write the launch, Monika will tell them soon.
 
     "Skipping to launch day."
     pause 5.0
