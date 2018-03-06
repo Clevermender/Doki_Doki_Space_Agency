@@ -1,13 +1,13 @@
 label script_main:
     scene dark
     stop music fadeout 2.0
-    
+
     "???" "Okay, time to run scenario number 11997."
-    
+
     scene bg residential_day
     with dissolve_scene_half
     play music t2
-    
+
     "It's the day after the festival."
     "The festival really was something."
     "We had a lot of people that visited our club."
@@ -18,11 +18,11 @@ label script_main:
     "She had seen something special at the festival."
     "I was not with her when she did, but it sounds like she really liked it."
     "I will see what she has in mind at the club."
-    
+
     scene bg club_day2
     with wipeleft
     play music t3
-    
+
     "I walk into the classroom."
     "Monika is talking to a much older guy."
     "I have never seen him before."
@@ -32,7 +32,7 @@ label script_main:
     "They had a wierd icon in the top left corner."
     "It looks like they are finished with whatever they did."
     "The man leaves and I walk up to Monika."
-    
+
     show monika 1b at t11 zorder 2
     m "Hi, [player]."
     mc "Hello, Monika."
@@ -94,7 +94,7 @@ label script_main:
     "I sigh and walk to one of the desks."
     "Monika is constantly looking in my direction."
     "Proberly to check that I'm not trying to look at the papers."
-    
+
     "After about five minutes, the door opens."
     "Sayori walks in."
     "She was kinda down at the end of the last week."
@@ -125,7 +125,7 @@ label script_main:
     "I walk out of the clubroom."
     scene bg corridor
     with wipeleft_scene
-    
+
     "I start walking down the corrider."
     $ y_name = "Yuri"
     $ style.say_dialogue = style.normal
@@ -142,29 +142,30 @@ label script_main:
     "{cps=*2}I turned around the corner to the fountain Yuri cut herself at.{/cps}{nw}"
     $ style.say_dialogue = style.normal
     $ del _history_list[-1:]
-    "I turned around the corner to the fountain from where Yuri go to get water for the tea at."
+    "I turned around the corner to the fountain from where Yuri goes to get water for her tea at."
     menu:
         "Do you really have time to walk?"
         "I do not have time.":
             call dont_have_time
-        "I do not have to be quick.":
+        "I do not have to be quick.": #this may be confusing, so the wording might have to be changed.
             call do_have_time
-            
+
     scene black
     "Time to choose who to help."
-    #does this make sense?
     menu:
         "I should help..."
-        
+
         "Natsuki.":
             $ nat_engi = True
         "Others.":
             $ nat_engi = False
-            
+
             pass
-    "Skipping to launch dayday."
-    pause 5.0
+    #monika still hasn't told them about the space agency yet...
     
+    "Skipping to launch day."
+    pause 5.0
+
     m "Let's begin with the launch checklist."
     m "T minus 85 secounds to launch."
     m "Electical Systems."
@@ -219,14 +220,14 @@ label script_main:
     y "Rotation speed is increasing by zero point zero eight dergrees per secound."
     if nat_engi:
         m "Alright, [player]!"
-        m "You worked with the rocket's controll systems the most."
+        m "You worked with the rocket's control systems the most."
         m "Should we roll the rocket 90 degrees so that the center of mass is pointing towards the east?"
         m "Or should we let the rocket automaticly adjust the course to componsate for the tilting?"
         mc "Well..."
         mc "Okay, lets do this."
         menu:
             mc "The best thing to do is."
-            
+
             "Let's roll the rocket.":
                 $ manual_ctrl = True
                 call launch_roll
@@ -246,7 +247,7 @@ label script_main:
         "And so it did."
         "The launch continiued as normal."
     return
-    
+
 label dont_have_time:
     "I need to get this done quickly."
     "And I need to find Natsuki and Yuri."
@@ -282,11 +283,11 @@ label dont_have_time:
     mc "I will go and tell the others."
     y 1k "I will try."
     return
-    
+
 label do_have_time:
     "I dont need to hurry."
     return
-    
+
 label launch_roll:
     mc "Let's roll the rocket."
     m "Sounds risky, but let's do it."
@@ -303,7 +304,7 @@ label launch_roll:
     m "Engage the eme-"
     "Just as she said that, all the cameras went black and and all of the monitors and screens recived the lose Of signal message."
     return
-    
+
 label launch_auto:
     mc "The rocket can fix this automaticly."
     "And so it did."
