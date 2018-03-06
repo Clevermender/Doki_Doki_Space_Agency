@@ -1,6 +1,8 @@
 label script_main:
+    scene dark
+    stop music fadeout 2.0
     
-    "Okay, time to run scenario number 11997."
+    "???" "Okay, time to run scenario number 11997."
     
     scene bg residential_day
     with dissolve_scene_half
@@ -114,7 +116,7 @@ label script_main:
     mc "So i will search for Yuri and Natsuki."
     s 2c "But i sai-"
     "Monika interupts Sayori."
-    m 4d "Bring our clubmembers home."
+    m 4d "Bring our clubmembers home." #THE DOKIAN. BRING THEM HOME. 3.5.18
     m 3n "To the club i mean"
     hide monika
     hide sayori
@@ -129,13 +131,13 @@ label script_main:
     $ style.say_dialogue = style.normal
     "The first one to look for is Yuri."
     $ style.say_dialogue = style.edited
-    "{cps=*2}Becouse Yuri is the best girl out of them all.{/cps}{nw}"
+    "{cps=*2}Becouse Yuri is the best girl out of them all.{/cps}{nw}" #i demand a refund
     "{cps=*2}And I'm going to land on Dr. Edmunds planet to wait for the dokis to be real.{/cps}{nw}"
     "{cps=*3}Even if that means waves big as mountians.{/cps}{nw}"
     "{cps=*3}And all of my friends and my other familly to beging dead by the time the dokis are real.{/cps}{nw}"
     $ style.say_dialogue = style.normal
     $ del _history_list[-4:]
-    "Becouse she is the closest of her and Natsuki, what i know at least."
+    "Becouse she is the closest of her and Natsuki, what i know at least." #yo what
     $ style.say_dialogue = style.edited
     "{cps=*2}I turned around the corner to the fountain Yuri cut herself at.{/cps}{nw}"
     $ style.say_dialogue = style.normal
@@ -150,7 +152,7 @@ label script_main:
             
     scene black
     "Time to choose who to help."
-    
+    #does this make sense?
     menu:
         "I should help..."
         
