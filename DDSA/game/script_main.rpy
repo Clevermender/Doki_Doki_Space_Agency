@@ -2,7 +2,7 @@ label script_main:
     scene dark
     stop music fadeout 2.0
 
-    "???" "Okay, time to run scenario number 11997."
+    "???" "Okay, time to run scenario number 11997." #"???" is the sayer, im too lazy to assign a new sayer name to Monika.
 
     scene bg residential_day
     with dissolve_scene_half
@@ -117,7 +117,7 @@ label script_main:
     s 2c "But i sai-"
     "Monika interupts Sayori."
     m 4d "Bring our clubmembers home." #THE DOKIAN. BRING THEM HOME. 3.5.18
-    m 3n "To the club i mean"
+    m 3n "Umm...I meant bring them to the club.."
     hide monika
     hide sayori
     scene black
@@ -132,9 +132,9 @@ label script_main:
     "The first one to look for is Yuri."
     $ style.say_dialogue = style.edited
     "{cps=*2}Becouse Yuri is the best girl out of them all.{/cps}{nw}" #i demand a refund
-    "{cps=*2}And I'm going to land on Dr. Edmunds planet to wait for the dokis to be real.{/cps}{nw}"
+    "{cps=*2}And I'm going to land on Dr. Edmunds planet to wait for the dokis to be real.{/cps}{nw}" #Dokistellar
     "{cps=*3}Even if that means waves big as mountians.{/cps}{nw}"
-    "{cps=*3}And all of my friends and my other familly to beging dead by the time the dokis are real.{/cps}{nw}"
+    "{cps=*3}And all of my friends and my other family will be dead by the time the dokis are real.{/cps}{nw}"
     $ style.say_dialogue = style.normal
     $ del _history_list[-4:]
     "Becouse she is the closest of her and Natsuki, what i know at least." #yo what
@@ -162,7 +162,7 @@ label script_main:
 
             pass
     #monika still hasn't told them about the space agency yet...
-    
+
     "Skipping to launch day."
     pause 5.0
 
