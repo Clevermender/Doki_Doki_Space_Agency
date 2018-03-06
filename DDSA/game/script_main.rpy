@@ -147,7 +147,9 @@ label script_main:
         "Do you really have time to walk?"
         "I do not have time.":
             call dont_have_time
+            $ time_no = True
         "No need to hurry.": #this may be confusing, so the wording might have to be changed.
+            $ time_no = False
             call do_have_time
 
     scene black
@@ -254,8 +256,7 @@ label script_main:
         n "Automatic is the best way."
         m "okay, let it be."
         m "Auto will take care of this."
-        "And so it did."
-        "The launch continiued as normal."
+        call launch_auto
     return
 
 label dont_have_time:
@@ -312,11 +313,18 @@ label launch_roll:
     "The rocket started to shake as it rotated on both the pitch and roll axis."
     m "Yuri!"
     m "Engage the eme-"
+    call showpoem(poem_m5)
     "Just as she said that, all the cameras went black and and all of the monitors and screens recived the lose Of signal message."
     return
 
 label launch_auto:
-    mc "The rocket can fix this automaticly."
+    if nat_engi:
+        mc "The rocket can fix this automaticly."
+    else:
+        n "It is doing good right now, so we should not change anything."
+        n "Automatic is the best way."
+        m "okay, let it be."
+        m "Auto will take care of this."
     "And so it did."
     "The launch continiued as normal."
     return
