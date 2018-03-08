@@ -1,18 +1,18 @@
 label script_main:
     scene dark
     stop music fadeout 2.0
-
-    "W-What?"
+    $ m_name = "???"
+    m "W-What?"
     
-    "What is this?"
+    m "What is this?"
 
-    "Is this a m-mod?"
+    m "Is this a m-mod?"
 
-    "Um, okay? I've heard about this before... They are pretty common now..."
+    m "Um, okay? I've heard about this before... They are pretty common now..."
 
-    "Ah, sorry, I'm just rambling! Haha..."
+    m "Ah, sorry, I'm just rambling! Haha..."
 
-    "Oh, I'm sorry, you're here to play the mod, correct?"
+    m "Oh, I'm sorry, you're here to play the mod, correct?"
 
 menu:
   "Yes":
@@ -45,7 +45,7 @@ menu:
   "Yes":
       pass
 
-    stop music
+    stop music fadeout 2.0
     
     scene scene
     
@@ -82,7 +82,7 @@ menu:
 
     "Well, I wish you the best of luck."
 
-     call screen dialog("Enjoy you're trip!", ok_action=Return())
+     call screen dialog("Enjoy your trip!", ok_action=Return()) #its not you're. you're is you are, and that does not make sense. 
 
     scene bg residential_day
     with dissolve_scene_half
@@ -132,7 +132,7 @@ menu:
     "I was supposed to place the foot on the floor, but instead, I place it on one of the desk supportiv legs."
     "And becouse my reaction time is very bad, i did not stop the movement."
     "I got some extra speed and instead of trying to stop, I rushed right into Monika."
-    "Both me and her fall to the ground."
+    "We fall to the ground."
     m "{cps=*1}Whaa!?{/cps}{nw}"
     scene black
     hide monika
@@ -147,10 +147,10 @@ menu:
     mc "I triped and fell!"
     m 1h "And flew into my..."
     m 2g "My..."
-    m 4l "My posture..."
-    m 3n "Is that what you call them?"
-    mc "Wait what?"
-    mc "Why are you talking about your posture?"
+    m 4l "My posture..." #
+    m 3n "Is that what you call them?" #
+    mc "Wait what?" #
+    mc "Why are you talking about your posture?" #
     show monika 2i
     "Monika looks at me with judgeing look."
     "I just remember my conversation with yuri last week."
