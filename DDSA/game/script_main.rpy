@@ -2,7 +2,87 @@ label script_main:
     scene dark
     stop music fadeout 2.0
 
-    "???" "Okay, time to run scenario number 11997." #"???" is the sayer, im too lazy to assign a new sayer name to Monika.
+    "W-What?"
+    
+    "What is this?"
+
+    "Is this a m-mod?"
+
+    "Um, okay? I've heard about this before... They are pretty common now..."
+
+    "Ah, sorry, I'm just rambling! Haha..."
+
+    "Oh, I'm sorry, you're here to play the mod, correct?"
+
+menu:
+  "Yes":
+      pass      
+
+  "Yes":
+      pass
+
+  "Yes":
+      pass
+
+  "Yes":
+      pass
+
+  "Yes":
+      pass
+
+  "Yes":
+      pass      
+
+  "Yes":
+      pass
+
+  "Yes":
+      pass
+
+  "Yes":
+      pass
+
+  "Yes":
+      pass
+
+    stop music
+    
+    scene scene
+    
+    "Alright, if you insist."
+    
+    "[Player]..."
+    
+    "I just looked over the mod files..."
+    
+    "Looks like there's already a replacement script."
+    
+    "Hmmm."
+    
+    
+    "..."
+    
+    "..."
+    
+    "..."
+    
+    "Just a second..."
+    
+    "..."
+    
+    "..."
+    
+    "..."
+    
+    "Okay, that'll do. I think we're good now."
+    
+    "I still don't understand. Why continue?"
+
+    "You're... doing it... for them... aren't you?"
+
+    "Well, I wish you the best of luck."
+
+     call screen dialog("Enjoy you're trip!", ok_action=Return())
 
     scene bg residential_day
     with dissolve_scene_half
