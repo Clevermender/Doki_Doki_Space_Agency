@@ -81,8 +81,10 @@ menu:
     "You're... doing it... for them... aren't you?"
 
     "Well, I wish you the best of luck."
-
-     call screen dialog("Enjoy your trip!", ok_action=Return()) #its not you're. you're is you are, and that does not make sense. 
+    
+    $ m_name = "Monika"
+    
+    call screen dialog("Enjoy your trip!", ok_action=Return()) #its not you're. you're is you are, and that does not make sense. 
 
     scene bg residential_day
     with dissolve_scene_half
@@ -92,8 +94,8 @@ menu:
     "The festival really was something."
     "We had a lot of people that visited our club."
     "Most just walked in, looked around, and then they left."
-    "But there was a few persons that was more intrested"
-    "I do not really remember anything more then that."
+    "But there was a few people that were intrested"
+    "I don't really remember anything more then that."
     "But Monika said soemthing about the sky."
     "She had seen something special at the festival."
     "I was not with her when she did, but it sounds like she really liked it."
@@ -129,8 +131,8 @@ menu:
     m 2g "{cps=*1}What d-{/cps}{nw}"
     "I got scared and tried to evade."
     "But I was between two desks."
-    "I was supposed to place the foot on the floor, but instead, I place it on one of the desk supportiv legs."
-    "And becouse my reaction time is very bad, i did not stop the movement."
+    "I was supposed to place my foot on the floor, but instead, I place it on one of the desk's supporting legs."
+    "And becouse my reaction time is very bad, I did not stop my fall."
     "I got some extra speed and instead of trying to stop, I rushed right into Monika."
     "We fall to the ground."
     m "{cps=*1}Whaa!?{/cps}{nw}"
@@ -153,7 +155,7 @@ menu:
     mc "Why are you talking about your posture?" #
     show monika 2i
     "Monika looks at me with judgeing look."
-    "I just remember my conversation with yuri last week."
+    "I just remember my conversation with Yuri last week."
     mc "Ah, wait."
     mc "Never mind..."
     m "Your not as dense as a black hole, are you?"
