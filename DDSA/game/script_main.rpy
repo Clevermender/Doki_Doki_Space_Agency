@@ -1,5 +1,5 @@
 label script_main:
-    scene dark
+    scene black
     stop music fadeout 2.0
     $ m_name = "???"
     m "W-What?"
