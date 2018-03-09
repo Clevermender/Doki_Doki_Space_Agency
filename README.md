@@ -1,2 +1,2 @@
-# Doki_Doki_Space_Agecny
+# Doki Doki Space Agency
 A mod for Doki Doki Literature Club!.
