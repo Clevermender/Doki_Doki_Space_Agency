@@ -8,7 +8,7 @@ label script_main:
 
     m "Is this a m-mod?"
 
-    m "Um, okay? I've heard about this before... They are pretty common now..."
+    m "Um, okay? I've heard about these before... They are pretty common now..."
 
     m "Ah, sorry, I'm just rambling! Haha..."
 
@@ -49,42 +49,42 @@ menu:
     
     scene scene
     
-    "Alright, if you insist."
+    m "Alright, if you insist."
     
-    "[Player]..."
+    m "[Player]..."
     
-    "I just looked over the mod files..."
+    m "I just looked over the mod files..."
     
-    "Looks like there's already a replacement script."
+    m "Looks like there's already a replacement script."
     
-    "Hmmm."
+    m "Hmmm."
     
     
-    "..."
+    m "..."
     
-    "..."
+    m "..."
     
-    "..."
+    m "..."
     
-    "Just a second..."
+    m "Just a second..."
     
-    "..."
+    m "..."
     
-    "..."
+    m "..."
     
-    "..."
+    m "..."
     
-    "Okay, that'll do. I think we're good now."
+    m "Okay, that'll do. I think we're good now."
     
-    "I still don't understand. Why continue?"
+    m "I still don't understand. Why continue?"
 
-    "You're... doing it... for them... aren't you?"
+    m "You're... doing it... for them... aren't you?"
 
-    "Well, I wish you the best of luck."
+    m "Well, I wish you the best of luck."
     
     $ m_name = "Monika"
     
-    call screen dialog("Enjoy your trip!", ok_action=Return()) #its not you're. you're is you are, and that does not make sense. 
+    call screen dialog("Enjoy your trip!", ok_action=Return()) 
 
     scene bg residential_day
     with dissolve_scene_half
@@ -111,7 +111,7 @@ menu:
     "He has some kind of emblem on his right arm."
     "He gives Monika some papers."
     "I cant see what they are doing."
-    "They had a wierd icon in the top left corner."
+    "They had a weird icon in the top left corner."
     "It looks like they are finished with whatever they did."
     "The man leaves and I walk up to Monika."
 
@@ -131,7 +131,7 @@ menu:
     m 2g "{cps=*1}What d-{/cps}{nw}"
     "I got scared and tried to evade."
     "But I was between two desks."
-    "I was supposed to place my foot on the floor, but instead, I place it on one of the desk's supporting legs."
+    "I was supposed to place my foot on the floor, but instead, I place it on one of the desk's supporting legs..."
     "And becouse my reaction time is very bad, I did not stop my fall."
     "I got some extra speed and instead of trying to stop, I rushed right into Monika."
     "We fall to the ground."
