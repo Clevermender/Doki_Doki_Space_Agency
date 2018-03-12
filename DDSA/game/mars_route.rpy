@@ -1,2 +1,0 @@
-label mars_miss:
-    
