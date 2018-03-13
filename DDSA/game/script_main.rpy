@@ -45,10 +45,6 @@ menu:
   "Yes":
       pass
 
-    stop music fadeout 2.0
-
-    scene scene
-
     m "Alright, if you insist."
 
     m "[Player]..."
@@ -350,7 +346,7 @@ menu:
     m "Okay everyone!"
     if lau_nch1:
         m "It's time to go over yesterdays launch."
-        m "And i have some good news!
+        m "And i have some good news!"
         m "The goos news are that we now own the space center, because we are apparently good enough to handle it."
         "What?"
         "Why would 4 18 year old students get to own and manage a space center?"
