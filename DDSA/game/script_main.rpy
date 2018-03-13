@@ -76,10 +76,12 @@ menu:
 
     m "Okay, that'll do. I think we're good now."
 
-    m "I still don't understand. Why continue?"
+    m "I still don't understand though. Why continue?"
 
     m "You're... doing it... for them... aren't you?"
 
+    m "..."
+    
     m "Well, I wish you the best of luck."
 
     $ m_name = "Monika"
