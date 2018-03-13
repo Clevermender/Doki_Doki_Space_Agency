@@ -342,15 +342,18 @@ menu:
     pause 5.0
     "Skipping to the next day!"
     pause 10.0
-    
+
     scene bg club_day2
-    show monika at t11 zorder 2
+    show monika 2e at t11 zorder 2
     m "Okay everyone!"
     if lau_nch1:
-        m "it's time to go over yesterdays launch."
+        m "It's time to go over yesterdays launch."
         m "And i have some good news!
         m "The goos news are that we now own the space center, because we are apparently good enough to handle it."
         "What?"
         "Why would 4 18 year old students get to own and manage a space center?"
         "I don't know what Monika did for this, but i want to know."
-    
+    else:
+        m 1e "It's time to go over yesterdays failuer."
+        m "We do have some clues tho..."
+        

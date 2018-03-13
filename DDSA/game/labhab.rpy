@@ -50,6 +50,7 @@ label launch_roll:
     "The rocket has now 25 degrees to go, and the reverse thrusters started to slow the rolling so that we don't roll to far."
     "Once we had rolled 90 degrees, the thrusters stoped."
     "But one of the thrusters started to burn with full thrust."
+    $ lausu = False
     "The rocket started to shake as it rotated on both the pitch and roll axis."
     m "Yuri!"
     m "Engage the eme-"
@@ -60,9 +61,11 @@ label launch_roll:
 label launch_auto:
     if nat_engi:
         mc "The rocket can fix this automaticly."
+        $ lausu = True
     else:
         n "It is doing good right now, so we should not change anything."
         n "Automatic is the best way."
+        $ lausu = True
         m "okay, let it be."
         m "Auto will take care of this."
     "And so it did."
