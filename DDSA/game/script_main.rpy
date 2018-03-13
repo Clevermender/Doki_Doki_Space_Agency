@@ -81,7 +81,7 @@ menu:
     m "You're... doing it... for them... aren't you?"
 
     m "..."
-    
+
     m "Well, I wish you the best of luck."
 
     $ m_name = "Monika"
@@ -358,4 +358,4 @@ menu:
     else:
         m 1e "It's time to go over yesterdays failuer."
         m "We do have some clues tho..."
-        
+    m "Okay everyone!"
