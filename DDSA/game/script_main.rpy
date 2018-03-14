@@ -219,7 +219,7 @@ menu:
     $ style.say_dialogue = style.normal
     $ del _history_list[-4:]
     hide screen tear
-    "Becouse Yuri is closer to the clubroom then Natsuki probably is." 
+    "Becouse Yuri is closer to the clubroom then Natsuki probably is."
     $ style.say_dialogue = style.edited
     show screen tear(20, 0.1, 0.1, 0, 40)
     "{cps=*2}I turned around the corner to the fountain Yuri cut herself at.{/cps}{nw}"
@@ -355,9 +355,9 @@ menu:
         m "It's time to go over yesterdays launch."
         m "And i have some good news!"
         m "The good news are that we now own the space center, because we are apparently good enough to handle it."
-        mc "What?"
-        mc "Why would four eighteen year old high school students get to own and manage a space center" #gotta remember the mc sayer (and the closing ")
-        mc "I don't know what Monika did for this, but i want to know." #lol
+        "What?" #MC is thinking this, not saying it!
+        "Why would four eighteen year old high school students get to own and manage a space center" #gotta remember the mc sayer (and the closing ")
+        "I don't know what Monika did for this, but i want to know." #lol
     else:
         m 1e "It's time to go over yesterdays failiure."
         m "We do have some clues though..."
