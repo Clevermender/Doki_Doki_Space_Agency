@@ -14,47 +14,42 @@ label script_main:
 
     m "Oh, I'm sorry, you're here to play the mod, correct?"
 
-menu:
-  "Yes":
-      pass
+    menu:
+        "Yes":
+            pass
 
-  "Yes":
-      pass
+        "Yes":
+            pass
 
-  "Yes":
-      pass
+        "Yes":
+            pass
 
-  "Yes":
-      pass
+        "Yes":
+            pass
 
-  "Yes":
-      pass
+        "Yes":
+            pass
 
-  "Yes":
-      pass
+        "Yes":
+            pass
 
-  "Yes":
-      pass
+        "Yes":
+            pass
 
-  "Yes":
-      pass
+        "Yes":
+            pass
 
-  "Yes":
-      pass
+        "Yes":
+            pass
 
-  "Yes":
-      pass
+        "Yes":
+            pass
 
     m "Alright, if you insist."
-
     m "[Player]..."
-
     m "I just looked over the mod files..."
-
     m "Looks like there's already a replacement script."
-
     m "Hmmm."
-
 
     m "..."
 
@@ -174,7 +169,7 @@ menu:
     "I sigh and walk to one of the desks."
     "Monika is constantly looking in my direction."
     "Probably to check that I'm not trying to look at the papers."
-
+    pause 5.0
     "After about five minutes, the door opens."
     "Sayori walks in."
     "She was kinda down at the end of the last week."
@@ -358,7 +353,15 @@ menu:
         "What?" #MC is thinking this, not saying it!
         "Why would four eighteen year old high school students get to own and manage a space center" #gotta remember the mc sayer (and the closing ")
         "I don't know what Monika did for this, but i want to know." #lol
+        m "And because of this, we do now have access to even more advanced technology."
+        m "Like advanced robotics."
+        m "I have even found a german V2 from world war two!" #Because Japan and Germany where both big axis powers, and japan loved to steal other countries designs.
     else:
         m 1e "It's time to go over yesterdays failiure."
         m "We do have some clues though..."
+        m "Part of the RCS thrusters have been found."
+        m "We can't say what caused the failiure yet."
+        m "But it looks like one of the thrusters broke off."
+        m "The fuel then started to leak and was ignited by the main engines heat or flame.
+        m "This is only a theory though." #but thats just theory, a rocket failiure theory, thanks for surviving the so called humor.
     m "Okay everyone!" #Redundancy
