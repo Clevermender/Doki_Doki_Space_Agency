@@ -152,11 +152,11 @@ menu:
     mc "Wait what?" #
     mc "Why are you talking about your posture?" #
     show monika 2i
-    "Monika looks at me with judgeing look."
+    "Monika looks at me with judging look."
     "I just remember my conversation with Yuri last week."
     mc "Ah, wait."
     mc "Never mind..."
-    m "Your not as dense as a black hole, are you?"
+    m "Your not as dense as a black hole, are you?" # insert meme: density of water: 1 g/m^3, density of osmium: 22.59 g/m^3, density of mc: ∞ g/m^3
     m 4k "Just kidding, [player]."
     m 4e "I know it was a accident."
     m 3n "And we can talk a little bit more open when its just you and me."
@@ -211,15 +211,19 @@ menu:
     $ style.say_dialogue = style.normal
     "The first one to look for is Yuri."
     $ style.say_dialogue = style.edited
+    show screen tear(20, 0.1, 0.1, 0, 40)
     "{cps=*2}Becouse Yuri is the best girl out of them all.{/cps}{nw}" #i demand a refund
     "{cps=*2}And I'm going to land on Dr. Edmunds planet to wait for the dokis to be real.{/cps}{nw}" #Dokistellar, Mc was friends with the dokis, but he was never meant to stop there.
     "{cps=*3}Even if that means waves big as mountians.{/cps}{nw}"
     "{cps=*3}And all of my friends and my other family will be dead by the time the dokis are real.{/cps}{nw}" #There will be more refrences to both movies, and possibly real events.
     $ style.say_dialogue = style.normal
     $ del _history_list[-4:]
-    "Becouse Yuri is closer to the clubroom then Natsuki probably is." #yo what. Answer: I probably spelled answer wrong, and it did make sense in swedish.
+    hide screen tear
+    "Becouse Yuri is closer to the clubroom then Natsuki probably is." 
     $ style.say_dialogue = style.edited
+    show screen tear(20, 0.1, 0.1, 0, 40)
     "{cps=*2}I turned around the corner to the fountain Yuri cut herself at.{/cps}{nw}"
+    hide screen tear
     $ style.say_dialogue = style.normal
     $ del _history_list[-1:]
     "I turned around the corner to the fountain from where Yuri goes to get water for her tea at."
@@ -338,7 +342,10 @@ menu:
         m "Auto will take care of this."
         call launch_auto
     pause 5.0
-    "Skipping to the next day!"
+    if lau_nch1:
+        m 'And this marks the day of a sucsessful launch!'
+    else:
+        m 1e "GC lock the doors." #gosh i forgot the thing they say... gc lock the doors or something?
     pause 10.0
 
     scene bg club_day2
@@ -347,11 +354,11 @@ menu:
     if lau_nch1:
         m "It's time to go over yesterdays launch."
         m "And i have some good news!"
-        m "The goos news are that we now own the space center, because we are apparently good enough to handle it."
-        "What?"
-        "Why would 4 18 year old students get to own and manage a space center?"
-        "I don't know what Monika did for this, but i want to know."
+        m "The good news are that we now own the space center, because we are apparently good enough to handle it."
+        mc "What?"
+        mc "Why would four eighteen year old high school students get to own and manage a space center" #gotta remember the mc sayer (and the closing ")
+        mc "I don't know what Monika did for this, but i want to know." #lol
     else:
-        m 1e "It's time to go over yesterdays failuer."
-        m "We do have some clues tho..."
-    m "Okay everyone!"
+        m 1e "It's time to go over yesterdays failiure."
+        m "We do have some clues though..."
+    m "Okay everyone!" #Redundancy
