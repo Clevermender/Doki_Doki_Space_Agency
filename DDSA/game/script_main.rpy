@@ -36,7 +36,7 @@ label script_main:
         "Yes":
             pass
 
-        "Yes":
+        "Correct":
             pass
 
         "Yes":
@@ -241,18 +241,28 @@ label script_main:
     s "About what?"
     m 2j "We are starting a new project for the club."
     show yuri 2f at l33 zorder 2
+    y "A new project?"
+    call screen dialog("Skipping to assigments.", ok_action=Return())
 
     "Time to choose who to help."
     menu:
         "I should help..."
-
+        
+        "Monika.":
+            $ nat_engi = False
+        "Yuri.":
+            $ nat_engi = False
         "Natsuki.":
             $ nat_engi = True
-        "Others.":
+        "Sayori.":
             $ nat_engi = False
 
             pass
-    #I did not want to forget to write the launch, Monika will tell them soon.
+    scene black
+    call screen dialog("Skipping to later", ok_action=Return())
+    pause 5.5
+    scene bg club_day
+    
 
     "Skipping to launch day."
     pause 5.0
