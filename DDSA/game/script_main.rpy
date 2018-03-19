@@ -262,7 +262,7 @@ label script_main:
     call screen dialog("Skipping to later", ok_action=Return())
     pause 5.5
     scene bg club_day
-    
+    #This will be after the first time helping, i will continue with this part home.
 
     "Skipping to launch day."
     pause 5.0
