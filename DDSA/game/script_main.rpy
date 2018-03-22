@@ -348,9 +348,12 @@ label script_main:
         call launch_auto
     pause 5.0
     if lau_nch1:
-        m 'And this marks the day of a sucsessful launch!'
+        m "And this marks the day of a sucsessful launch!"
+        m "The telescope will guide itself into the correct orbit."
+        m "We are going to begin with the observations tomorrow, after the debrief." #I can't spell that even if i try.
     else:
-        m 1e "GC lock the doors." #gosh i forgot the thing they say... gc lock the doors or something?
+        y "Everyone p-please remain at your positions..."
+        m 1e "GC, lock the doors." #gosh i forgot the thing they say... gc lock the doors or something?
     pause 10.0
 
     scene bg club_day2
