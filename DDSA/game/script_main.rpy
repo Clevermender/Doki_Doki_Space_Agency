@@ -36,7 +36,7 @@ label script_main:
         "Yes":
             pass
 
-        "Correct":
+        "Correct":  #lol
             pass
 
         "Yes":
@@ -273,7 +273,7 @@ label script_main:
     "Skipping to launch day."
     pause 5.0
 
-    m "Let's begin with the launch checklist."
+    m "Let's begin with the launch checklist." #Wait... Why does Sayori say like... nothing in these parts
     m "T minus 85 secounds to launch."
     m "Electical Systems."
     n "Go."
@@ -318,6 +318,7 @@ label script_main:
     n "The decoupler malfunctioned and broke, so the seperation thruster instead ripped the booster away."
     n "Now part of the decoupler is still on the rocket."
     n "And possibly some wiring is exposed."
+    m "..."
     m "But what about the center of mass?"
     n "I don't know..."
     n "Ask the one that can see the trajectory maybe!"
@@ -382,5 +383,5 @@ label script_main:
         m "We can't say what caused the failiure yet."
         m "But it looks like one of the thrusters broke off."
         m "The fuel then started to leak and was ignited by the main engines heat or flame.
-        m "This is only a theory though." #but thats just theory, a rocket failiure theory, thanks for surviving the so called humor.
+        m "This is only a theory though." #but thats just theory, a rocket failiure theory, thanks for surviving the so called humor. #In all seriousness, Matpat is actually a bad theorist. Esp. his Doki theories are badly reaserched and not well presented ｢Steeeal / An_Alt｣ 
     m "Okay everyone!" #Redundancy
