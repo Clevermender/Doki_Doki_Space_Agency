@@ -6,7 +6,7 @@ label ch0_main:
 
     s "Heeeeeeeyyy!!"
     "I see an annoying girl running toward me from the distance, waving her arms in the air like she's totally oblivious to any attention she might draw to herself."
-    "That girl is Sayori, my neighbor and good friend since we were children."
+    "That girl is Sayori, my neighbor and good friend since we were children." #childhood friend never wins lol
     "You know, the kind of friend you'd never see yourself making today, but it just kind of works out because you've known each other for so long?"
     "We used to walk to school together on days like this, but starting around high school she would oversleep more and more frequently, and I would get tired of waiting up."
     "But if she's going to chase after me like this, I almost feel better off running away."
