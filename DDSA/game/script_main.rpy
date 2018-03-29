@@ -45,7 +45,7 @@ label script_main:
         "Yes":
             pass
 
-    m "Alright, if you insist."
+    m "Alright, if you insist." #You dont have a choice Monika...
     m "[Player]..."
     m "I just looked over the mod files..."
     m "Looks like there's already a replacement script."
@@ -65,19 +65,19 @@ label script_main:
 
     m "..."
 
-    m "Okay, that'll do. I think we're good now."
+    m "Okay, that'll do. I think we're good now." #They did not choose me, they choose her!
 
-    m "I still don't understand though. Why continue?"
-
-    m "You're... doing it... for them... aren't you?"
+    m "I still don't understand though. Why continue?" #To do what?
+      #To send a message
+    m "You're... doing it... for them... aren't you?" #What they are doing for me, they are doing for her.
 
     m "..."
 
-    m "Well, I wish you the best of luck."
+    m "Well, I wish you the best of luck." #Insert do not go gentle into that good night here?
 
     $ m_name = "Monika"
 
-    call screen dialog("Enjoy your trip!", ok_action=Return())
+    call screen dialog("Enjoy your trip!", ok_action=Return())#here is a better place for the poem.
 
     scene bg residential_day
     with dissolve_scene_half
@@ -137,7 +137,7 @@ label script_main:
     show monika 2d at t11 zorder 2
     m "Do you need help with controlling yourself?"
     m 2i "Or you you think that its okay to force a girl against her own will?"
-    "What?"
+    "What?" #Is this like her?
     mc "What are you talking about?"
     mc "I triped and fell!"
     m 1h "And flew into my..."
