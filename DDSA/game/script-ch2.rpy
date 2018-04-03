@@ -101,7 +101,7 @@ label ch2_main:
     show sayori at t32 zorder 2
     show yuri at f33 zorder 3
     y "Still, coming from you, Sayori..."
-    y 1a "I guess there's a little devil inside all of us, isn't there?"
+    y 1a "I guess there's a little devil inside all of us, isn't there?" #Ha... Ha... Ha... BOOSTED GE.... okay i will stop, sorry
     show yuri at t33 zorder 2
     show sayori at f32 zorder 3
     s 1q "Ehehe..."
@@ -332,7 +332,7 @@ label ch2_main:
     "Sayori somehow already finished her entire cookie."
     "Yuri is back to her book, and Natsuki disappeared into the closet."
 
-    
+
     #Call exclusive scene
     $ nextscene = poemwinner[1] + "_exclusive_" + str(eval(poemwinner[1][0] + "_appeal"))
     call expression nextscene

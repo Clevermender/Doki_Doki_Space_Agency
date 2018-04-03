@@ -6,7 +6,7 @@ label ch0_main:
 
     s "Heeeeeeeyyy!!"
     "I see an annoying girl running toward me from the distance, waving her arms in the air like she's totally oblivious to any attention she might draw to herself."
-    "That girl is Sayori, my neighbor and good friend since we were children." #childhood friend never wins lol
+    "That girl is Sayori, my neighbor and good friend since we were children." #childhood friend never wins lol. You lose when you die...
     "You know, the kind of friend you'd never see yourself making today, but it just kind of works out because you've known each other for so long?"
     "We used to walk to school together on days like this, but starting around high school she would oversleep more and more frequently, and I would get tired of waiting up."
     "But if she's going to chase after me like this, I almost feel better off running away."
@@ -67,7 +67,7 @@ label ch0_main:
     "After I pack up my things, I stare blankly at the wall, looking for an ounce of motivation."
     mc "Clubs..."
     "Sayori wants me to check out some clubs."
-    "I guess I have no choice but to start with the anime club..."
+    "I guess I have no choice but to start with the anime club..." #No, choose the ocu... never mind
 
     s "Hellooo?"
     show sayori 1b at t11 zorder 2
@@ -129,7 +129,7 @@ label ch0_main:
     show yuri at t22 zorder 2
     show natsuki 4c at t21 zorder 2
     n "Seriously? You brought a boy?"
-    n "Way to kill the atmosphere."
+    n "Way to kill the atmosphere."#Its not dead,its just very small
     show yuri at t33 zorder 2
     show natsuki at t32 zorder 2
     show monika 1k at t31 zorder 2
@@ -139,7 +139,7 @@ label ch0_main:
     mc "..."
     "All words escape me in this situation."
     "This club..."
-    "{i}...is full of incredibly cute girls!!{/i}"
+    "{i}...is full of incredibly cute girls!!{/i}" #As always
 
     show monika at thide zorder 1
     show yuri at thide zorder 1
@@ -160,7 +160,7 @@ label ch0_main:
     show natsuki at t32 zorder 2
 
     "The girl with the sour attitude, whose name is apparently Natsuki, is one I don't recognize."
-    "Her small figure makes me think she's probably a first-year."
+    "Her small figure makes me think she's probably a first-year." #Have i heard this before?
     "She is also the one who made cupcakes, according to Sayori."
 
     show sayori 2q at f31 zorder 3

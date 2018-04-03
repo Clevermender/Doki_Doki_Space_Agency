@@ -444,7 +444,7 @@ label natsuki_exclusive_2_ch3:
     mc "I-I'm not! I was just--"
     mc "--Natsuki, don't try to move!"
     mc "Just give me the box!"
-    n "You...you perv!"
+    n "You...you perv!" #I feel like i have seen this before. Why cant i watch anime or play anime games without making refrences or noting simularitys in every other game or movie or series.
     n "You set me up!!"
     n "Go away!"
     n "Get out!"
