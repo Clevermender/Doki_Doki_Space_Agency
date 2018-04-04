@@ -593,7 +593,7 @@ In a world of infinite choices, behold this special day.
 After all,
 Not all good times must come to an end."""
     )
-    
+
     poem_m5 = Poem(
     author = "monika",
     title = "Do not go gentle into that good night",

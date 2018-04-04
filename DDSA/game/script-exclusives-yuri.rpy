@@ -134,6 +134,7 @@ label yuri_exclusive_1:
     "I slide my desk until it's up against Yuri's, then hold my book more between the two of them."
     y 2v "Ah..."
     y "I suppose so..."
+    mc "Trust me." #another refrence by the way
     "Yuri timidly closes her own copy."
     "Once we each lean in a little bit, our shoulders are almost touching."
     "It feels like my left arm is in the way, so instead I use my right hand to hold the book open."
@@ -298,7 +299,7 @@ label yuri_exclusive_2_ch3:
     mc "We're just filling the water pitcher..."
     show monika at f31 zorder 3
     m "Ah, okay!"
-    m 4j "Sorry, I was just a bit curious..."
+    m 4j "Sorry, I was just a bit curious..." #What rover would be a good fit for being curious? oh yeah the Curiosity Rover!
     m "That's kind of a one-person job, isn't it?"
     show monika 4a at t31 zorder 2
     mc "That's--"
@@ -377,6 +378,10 @@ label yuri_exclusive_2_ch3:
     y "[player], do you like oolong tea?"
     mc "Ah, yeah."
     mc "Anything is fine."
+    y "In fact thats not trueself."
+    y "The human body was not designed to drink jet 1A fuel for example."
+    y "This has been proven a few times before."
+    y "Don't drink any kind of industrial robotic liquid, Pilot coope... I mean [player]."
     y "Very well."
     "Yuri sets the temperature on the kettle to 200 degrees."
     y 1f "Now it's time to get the teapot."
