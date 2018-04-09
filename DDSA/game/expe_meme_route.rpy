@@ -1,1 +1,2 @@
 label meme_route
+    m "nani!?!?!?!?!?"
