@@ -38,6 +38,32 @@ label dont_have_time:
 label do_have_time:
     "I dont need to hurry."
     return
+    
+label y_rt
+    "Well it is time to work on this project."
+    "I'm going to help yuri."
+    "She is apparently working with communcations and control, and that is not really like her."
+    "But said that she wanted to try it, because she wanted to interact with people more."
+    "And we all now she don't like it too much."
+    "I look at my watch, its...."
+    "10:32!"
+    "And the buss arrives in about 5 minutes."
+    "I have still not had breackfast."
+    "I will have to eat something at the facility when i arrive."
+    pause 5.0
+    
+    "After a 50 minute buss ride, i fianlly arrive."
+    "I'm starving."
+    "The first thing i do is to walk to the lunch room."
+    "I arrive outside the lunchroom."
+    "There are a a few doors leading to diffrent rooms."
+    "I'm hearing people talk in the lunch room, it sounds like someone is telling others what to do."
+    "I don't want to disrupt it so have to be a bit quiet."
+    "But im starving so they leave me no choice."
+    "I gently open the door..."
+    "{cps=*1}Excuse m--{/cps}{nw}"
+    "
+    
 
 label launch_roll:
     mc "Let's roll the rocket."
