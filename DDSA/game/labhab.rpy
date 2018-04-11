@@ -40,19 +40,19 @@ label do_have_time:
     return
     
 label y_rt
-    "Well it is time to work on this project."
-    "I'm going to help yuri."
+    "Well it's time to work on this project."
+    "I'm going to help Yuri."
     "She is apparently working with communcations and control, and that is not really like her."
     "But said that she wanted to try it, because she wanted to interact with people more."
     "And we all now she don't like it too much."
     "I look at my watch, its...."
-    "10:32!"
-    "And the buss arrives in about 5 minutes."
+    mc "10:32!"
+    "And the bus arrives in about 5 minutes."
     "I have still not had breackfast."
     "I will have to eat something at the facility when i arrive."
     pause 5.0
     
-    "After a 50 minute buss ride, i fianlly arrive."
+    "After a 50 minute bus ride, i finally arrive."
     "I'm starving."
     "The first thing i do is to walk to the lunch room."
     "I arrive outside the lunchroom."
@@ -62,7 +62,7 @@ label y_rt
     "But im starving so they leave me no choice."
     "I gently open the door..."
     "{cps=*1}Excuse m--{/cps}{nw}"
-    "
+    ""#wut
     
 
 label launch_roll:
@@ -81,7 +81,7 @@ label launch_roll:
     m "Yuri!"
     m "Engage the eme-"
     call showpoem(poem_m5)
-    "Just as she said that, all the cameras went black and and all of the monitors and screens recived the lose Of signal message."
+    "Just as she said that, all the moniters went black and and all of the monitors and screens recived the loss Of signal message."
     return
 
 label launch_auto:
@@ -92,7 +92,7 @@ label launch_auto:
         n "It is doing good right now, so we should not change anything."
         n "Automatic is the best way."
         $ lausu = True
-        m "okay, let it be."
+        m "Okay, let it be."
         m "Auto will take care of this."
     "And so it did."
     "The launch continiued as normal."
