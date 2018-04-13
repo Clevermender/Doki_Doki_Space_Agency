@@ -1,4 +1,4 @@
-label ch0_main:
+label ddsa_ch0_main:
     stop music fadeout 2.0
     scene bg residential_day
     with dissolve_scene_full
