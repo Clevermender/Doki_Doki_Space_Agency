@@ -175,7 +175,7 @@ label script_main:
     "She was kinda down at the end of the last week."
     "I just rememberd."
     "I mumbled to myself."
-    mc "Depression..."
+    mc "Depression..." #She should become a soviet tank, they dont have deppresion for shit.
     "But she was happy again at the festival, and seems to be in her normal mood today."
     show sayori 1c at t22 zorder 2
     show monika 1e at t21 zorder 2
@@ -253,7 +253,7 @@ label script_main:
     "Time to choose who to help."
     menu:
         "I should help..."
-        
+
         "Monika.":
             $ nat_engi = False
         "Yuri.":
@@ -383,5 +383,5 @@ label script_main:
         m "We can't say what caused the failiure yet."
         m "But it looks like one of the thrusters broke off."
         m "The fuel then started to leak and was ignited by the main engines heat or flame.
-        m "This is only a theory though." #but thats just theory, a rocket failiure theory, thanks for surviving the so called humor. #In all seriousness, Matpat is actually a bad theorist. Esp. his Doki theories are badly reaserched and not well presented ｢Steeeal / An_Alt｣ 
+        m "This is only a theory though." #but thats just theory, a rocket failiure theory, thanks for surviving the so called humor. #In all seriousness, Matpat is actually a bad theorist. Esp. his Doki theories are badly reaserched and not well presented ｢Steeeal / An_Alt｣
     m "Okay everyone!" #Redundancy
