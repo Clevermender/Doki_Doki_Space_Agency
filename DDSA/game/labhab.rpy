@@ -38,7 +38,7 @@ label dont_have_time:
 label do_have_time:
     "I dont need to hurry."
     return
-    
+
 label y_rt
     "Well it's time to work on this project."
     "I'm going to help Yuri."
@@ -51,7 +51,7 @@ label y_rt
     "I have still not had breackfast."
     "I will have to eat something at the facility when i arrive."
     pause 5.0
-    
+    #this is where the reception BG will be placed, if there even will be one, unless we will use a corridor BG.
     "After a 50 minute bus ride, i finally arrive."
     "I'm starving."
     "The first thing i do is to walk to the lunch room."
@@ -59,11 +59,13 @@ label y_rt
     "There are a a few doors leading to diffrent rooms."
     "I'm hearing people talk in the lunch room, it sounds like someone is telling others what to do."
     "I don't want to disrupt it so have to be a bit quiet."
-    "But im starving so they leave me no choice."
+    "Still, im starving..."
+    "But they really leave me no choice."
     "I gently open the door..."
     "{cps=*1}Excuse m--{/cps}{nw}"
+    scene black #This is where the lunchroom will be, or maybe this will be one of "those" scenes
     ""#wut
-    
+
 
 label launch_roll:
     mc "Let's roll the rocket."
