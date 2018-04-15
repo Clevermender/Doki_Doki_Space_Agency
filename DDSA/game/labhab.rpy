@@ -83,7 +83,7 @@ label launch_roll:
     m "Yuri!"
     m "Engage the eme-"
     call showpoem(poem_m5)
-    "Just as she said that, all the moniters went black and and all of the monitors and screens recived the loss Of signal message."
+    "Just as she said that, all the moniters displaying the cameras on the rocket went black and and all of the monitors and screens recived the loss Of signal message."
     return
 
 label launch_auto:
