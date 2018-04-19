@@ -206,7 +206,7 @@ label script_main:
     $ style.say_dialogue = style.normal
     "The first one to look for is Yuri."
     $ style.say_dialogue = style.edited
-    show screen tear(20, 0.1, 0.1, 0, 40)
+    show screen tear(20, 0.1, 0.1, 0, 40) #might interfere with the text
     "{cps=*2}Becouse Yuri is the best girl out of them all.{/cps}{nw}" #i demand a refund
     "{cps=*2}And I'm going to land on Dr. Edmunds planet to wait for the dokis to be real.{/cps}{nw}" #Dokistellar, Mc was friends with the dokis, but he was never meant to stop there.
     "{cps=*3}Even if that means waves big as mountians.{/cps}{nw}"
@@ -216,7 +216,7 @@ label script_main:
     hide screen tear
     "Becouse Yuri is closer to the clubroom then Natsuki probably is."
     $ style.say_dialogue = style.edited
-    show screen tear(20, 0.1, 0.1, 0, 40)
+    show screen tear(20, 0.1, 0.1, 0, 40)# again, the screen text might interfere
     "{cps=*2}I turned around the corner to the fountain Yuri cut herself at.{/cps}{nw}"
     hide screen tear
     $ style.say_dialogue = style.normal
@@ -305,8 +305,8 @@ label script_main:
     "I see Yuri looking at her bag for a secound."
     "She then tried to reach it with the arm, but stoped and then looked around her."
     "She then returned to monitor the rocket."
-    y "W-we are at 500 meter per secound."
-    "She sound excited and less worried."
+    y "W-we are at 500 meters per secound."
+    "She sounds excited and less worried."
     "Almost like last week, when she resited her poem in front of everyone."
     m "We have a altitude of 1.6 km."
     "20 secounds has now passed since the launch."
@@ -365,7 +365,7 @@ label script_main:
 
     scene bg club_day2
     show monika 2e at t11 zorder 2
-    m "Okay everyone!"
+    m "Okay everyone!" 
     if lau_nch1:
         m "It's time to go over yesterdays launch."
         m "And i have some good news!"
@@ -384,4 +384,4 @@ label script_main:
         m "But it looks like one of the thrusters broke off."
         m "The fuel then started to leak and was ignited by the main engines heat or flame.
         m "This is only a theory though." #but thats just theory, a rocket failiure theory, thanks for surviving the so called humor. #In all seriousness, Matpat is actually a bad theorist. Esp. his Doki theories are badly reaserched and not well presented ｢Steeeal / An_Alt｣
-    m "Okay everyone!" #Redundancy
+    m "Okay everyone!" #Redundancy / a double okay everyone
