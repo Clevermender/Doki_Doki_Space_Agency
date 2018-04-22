@@ -6,6 +6,7 @@ label meme_route
     m "I'm sorry, that was a strange question to ask."
     mc "..."
     mc "..."
-    m "omae wa mou shinderu"
+    m "omae wa mou shinderu" #This is how to take lemons and make a energy bar
     mc "nani!?!?!?!?!?"
+    #Monika tries to delete MC but she can't
     return
