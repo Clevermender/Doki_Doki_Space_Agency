@@ -9,4 +9,7 @@ label meme_route
     m "omae wa mou shinderu" #This is how to take lemons and make a energy bar
     mc "nani!?!?!?!?!?"
     #Monika tries to delete MC but she can't
+    $ consolehistory = []
+    call updateconsole("os.remove(\"characters/mc.chr\")", "Failed. Reason: WTH Monika")
+    m "darnit!"
     return
