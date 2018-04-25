@@ -1,0 +1,28 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/act1.rpy", line 9: expected ':' not found.
+    label act1
+              ^
+
+File "game/expe_meme_route.rpy", line 1: expected ':' not found.
+    label meme_route
+                    ^
+
+File "game/hidroute.rpy", line 1: expected ':' not found.
+    label no_sekret_route
+                         ^
+
+File "game/labhab.rpy", line 42: expected ':' not found.
+    label y_rt
+              ^
+
+File "game/poems.rpy", line 627: is not terminated with a newline. (Check strings and parenthesis.)
+        poem_meme = Poem(
+
+File "game/script_main.rpy", line 385: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+            m "The fuel then started to leak and was ignited by the main engines heat or flame.
+
+Ren'Py Version: Ren'Py 6.99.13.2919
