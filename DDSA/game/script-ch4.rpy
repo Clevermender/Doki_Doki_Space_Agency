@@ -1,8 +1,8 @@
-label ch4_main:
+label ddsa_ch4_main:
     stop music fadeout 2.0
     scene bg residential_day
     with dissolve_scene_full
-    
+
     play music t6
 
     "It's already Sunday."
@@ -46,7 +46,7 @@ label ch4_main:
     play music t10
     show sayori 1ba  at t11 zorder 2
     s "Hi [player]~"
-    show sayori 1by 
+    show sayori 1by
     "I sit down in her room."
     "Sayori forces a smile, but it's easy to tell that she's different."
     "There's a minute of silence between us."
@@ -75,7 +75,7 @@ label ch4_main:
     mc "Ah, so it's just me and [ch4_name], then..."
     s 1ba "Yep~"
     "There's more silence between us."
-    show sayori 1bk 
+    show sayori 1bk
     "Sayori stares in a random direction."
     "Everything about her behavior is really uncharacteristic."
     "I finally get to the point."
@@ -100,7 +100,7 @@ label ch4_main:
     s "It just wants to torture me."
     s 4bq "Ehehe~"
     mc "Sayori!"
-    show sayori 4bb 
+    show sayori 4bb
     "I grab Sayori by the shoulders."
     mc "What on Earth are you saying?!"
     mc "Are you listening to yourself right now?"
@@ -280,7 +280,7 @@ label ch4_main:
     return
 
 
-label ch4_exclusive_natsuki:
+label ddsa_ch4_exclusive_natsuki:
     play music t6 fadeout 2.0
     scene bg house with wipeleft_scene
     "I spend only a few minutes back at home anxiously awaiting Natsuki's arrival."
@@ -692,7 +692,7 @@ label ch4_exclusive_natsuki:
     "Clearly flustered, Natsuki hurries off, and Sayori waves goodbye."
     return
 
-label ch4_exclusive_yuri:
+label ddsa_ch4_exclusive_yuri:
     play music t6 fadeout 2.0
     scene bg house with wipeleft_scene
     "As I approach my house, I see something that makes me feel a moment of panic."
@@ -1200,7 +1200,7 @@ label ch4_exclusive_yuri:
     show sayori at f21 zorder 3
     s 4bq "Of course!"
     "Sayori beams."
-    show sayori 4ba 
+    show sayori 4ba
     show sayori at t21 zorder 2
     show yuri at f22 zorder 3
     y 4bc "Y-Yeah, so..."
@@ -1213,7 +1213,7 @@ label ch4_exclusive_yuri:
 
 
 
-label ch4_end:
+label ddsa_ch4_end:
     play music t10 fadeout 2.0
     show sayori 1ba  at t11 zorder 2
     mc "Sayori--"
@@ -1296,7 +1296,7 @@ label ch4_end:
 
     return
 
-label ch4_end_yes:
+label ddsa_ch4_end_yes:
     mc "I love you."
     s 1bv "Eh--?"
     mc "Those are my true feelings."
@@ -1384,7 +1384,7 @@ label ch4_end_yes:
     return
 
 
-label ch4_end_no:
+label ddsa_ch4_end_no:
     mc "You'll always be my dearest friend."
     mc "What you need most is for things to be like they've always been."
     mc "Monika told me the truth..."

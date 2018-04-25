@@ -1,6 +1,6 @@
 # Chapter 2 static content. Poem responses called from here are in script-poemresponses.rpy
 
-label ch2_main:
+label ddsa_ch2_main:
     scene bg club_day
     with dissolve_scene_half
     play music t2
@@ -342,7 +342,7 @@ label ch2_main:
     return
 
 
-label ch2_end:
+label ddsa_ch2_end:
     stop music fadeout 1.0
     scene bg club_day
     show monika 4b at t32 zorder 2
@@ -868,7 +868,7 @@ label ch2_end:
     "Then again, the festival is only a few days away..."
     "Who knows what will happen in that time?"
     return
-label ch2_end_sayori:
+label ddsa_ch2_end_sayori:
     mc "Sayori..."
     mc "You really think I would ditch you for [ch2_winner]?"
     s 1e "Eh?!"
@@ -896,7 +896,7 @@ label ch2_end_sayori:
     "But I want to respect her and keep her happy, too."
     return
 
-label ch2_end_natsuki:
+label ddsa_ch2_end_natsuki:
     mc "Walking home with Natsuki, huh..."
     "Why does the thought of that make my heart pound...?"
     mc "I mean..."
@@ -904,7 +904,7 @@ label ch2_end_natsuki:
     s 1x "Isn't she so cute and fun to be around?"
     jump ch2_end_shared
 
-label ch2_end_yuri:
+label ddsa_ch2_end_yuri:
     mc "Walking home with Yuri, huh..."
     "Why does the thought of that make my heart pound...?"
     mc "I mean..."
@@ -912,7 +912,7 @@ label ch2_end_yuri:
     s 1x "Isn't she so beautiful and smart?"
     jump ch2_end_shared
 
-label ch2_end_shared:
+label ddsa_ch2_end_shared:
     mc "That has nothing to do with what I just said!"
     s 4s "Ahaha! You admitted it!"
     mc "Jeez..."

@@ -1,4 +1,4 @@
-Wed Apr 25 08:19:38 2018
+Wed Apr 25 08:20:50 2018
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
  
@@ -6,27 +6,1007 @@ Ren'Py 6.99.13.2919
 Bootstrap to the start of init.init took 0.05s
 Early init took 0.00s
 Loader init took 0.01s
-Loading error handling took 0.03s
-Another instance is already running, quitting.
-Traceback (most recent call last):
-  File "E:\GameGen\Modding\DDLC\Modding\RenPy\renpy-6.99.12.4-sdk2\renpy.py", line 198, in <module>
-    main()
-  File "E:\GameGen\Modding\DDLC\Modding\RenPy\renpy-6.99.12.4-sdk2\renpy.py", line 195, in main
-    renpy.bootstrap.bootstrap(renpy_base)
-  File "E:\GameGen\Modding\DDLC\Modding\RenPy\renpy-6.99.12.4-sdk2\renpy\bootstrap.py", line 305, in bootstrap
-    renpy.main.main()
-  File "E:\GameGen\Modding\DDLC\Modding\RenPy\renpy-6.99.12.4-sdk2\renpy\main.py", line 365, in main
-    renpy.game.script.load_script()  # sets renpy.game.script.
-  File "E:\GameGen\Modding\DDLC\Modding\RenPy\renpy-6.99.12.4-sdk2\renpy\script.py", line 265, in load_script
-    self.load_appropriate_file(".rpyc", ".rpy", dir, fn, initcode)
-  File "E:\GameGen\Modding\DDLC\Modding\RenPy\renpy-6.99.12.4-sdk2\renpy\script.py", line 756, in load_appropriate_file
-    self.finish_load(stmts, initcode, filename=lastfn)
-  File "E:\GameGen\Modding\DDLC\Modding\RenPy\renpy-6.99.12.4-sdk2\renpy\script.py", line 448, in finish_load
-    node.early_execute()
-  File "E:\GameGen\Modding\DDLC\Modding\RenPy\renpy-6.99.12.4-sdk2\renpy\ast.py", line 879, in early_execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "E:\GameGen\Modding\DDLC\Modding\RenPy\renpy-6.99.12.4-sdk2\renpy\python.py", line 1764, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "game/definitions.rpy", line 7, in <module>
-  File "python-packages/singleton.py", line 51, in __init__
-singleton.SingleInstanceException
+Loading error handling took 0.02s
+game/script-poemgame.rpy:50: SyntaxWarning: name 'sayoriTime' is used prior to global declaration
+game/script-poemgame.rpy:57: SyntaxWarning: name 'natsukiTime' is used prior to global declaration
+game/script-poemgame.rpy:64: SyntaxWarning: name 'yuriTime' is used prior to global declaration
+game/script-poemgame.rpy:71: SyntaxWarning: name 'monikaTime' is used prior to global declaration
+Loading script took 3.18s
+Loading persistent took 0.01s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+
+The label ch1_main is defined twice, at
+  File "script-ch1.rpyc", line 3 and
+  File "game/script-ch1.rpy", line 3.
+
+The label ch1_end is defined twice, at
+  File "script-ch1.rpyc", line 162 and
+  File "game/script-ch1.rpy", line 162.
+
+The label ch1_end_natsuki is defined twice, at
+  File "script-ch1.rpyc", line 419 and
+  File "game/script-ch1.rpy", line 419.
+
+The label ch1_end_yuri is defined twice, at
+  File "script-ch1.rpyc", line 562 and
+  File "game/script-ch1.rpy", line 562.
+
+The label ch1_end_sayori is defined twice, at
+  File "script-ch1.rpyc", line 681 and
+  File "game/script-ch1.rpy", line 681.
+
+The label ch2_main is defined twice, at
+  File "script-ch2.rpyc", line 3 and
+  File "game/script-ch2.rpy", line 3.
+
+The label ch2_end is defined twice, at
+  File "script-ch2.rpyc", line 345 and
+  File "game/script-ch2.rpy", line 345.
+
+The label ch2_end_sayori is defined twice, at
+  File "script-ch2.rpyc", line 871 and
+  File "game/script-ch2.rpy", line 871.
+
+The label ch2_end_natsuki is defined twice, at
+  File "script-ch2.rpyc", line 899 and
+  File "game/script-ch2.rpy", line 899.
+
+The label ch2_end_yuri is defined twice, at
+  File "script-ch2.rpyc", line 907 and
+  File "game/script-ch2.rpy", line 907.
+
+The label ch2_end_shared is defined twice, at
+  File "script-ch2.rpyc", line 915 and
+  File "game/script-ch2.rpy", line 915.
+
+The label ch3_main is defined twice, at
+  File "script-ch3.rpyc", line 1 and
+  File "game/script-ch3.rpy", line 1.
+
+The label ch3_start_natsuki is defined twice, at
+  File "script-ch3.rpyc", line 208 and
+  File "game/script-ch3.rpy", line 208.
+
+The label ch3_start_yuri is defined twice, at
+  File "script-ch3.rpyc", line 278 and
+  File "game/script-ch3.rpy", line 278.
+
+The label ch3_start_none is defined twice, at
+  File "script-ch3.rpyc", line 376 and
+  File "game/script-ch3.rpy", line 376.
+
+The label ch3_end is defined twice, at
+  File "script-ch3.rpyc", line 397 and
+  File "game/script-ch3.rpy", line 397.
+
+The label ch3_end_sayori is defined twice, at
+  File "script-ch3.rpyc", line 669 and
+  File "game/script-ch3.rpy", line 669.
+
+The label ch3_end_monika is defined twice, at
+  File "script-ch3.rpyc", line 697 and
+  File "game/script-ch3.rpy", line 697.
+
+The label ch3_end_natsuki is defined twice, at
+  File "script-ch3.rpyc", line 790 and
+  File "game/script-ch3.rpy", line 790.
+
+The label ch3_end_yuri is defined twice, at
+  File "script-ch3.rpyc", line 983 and
+  File "game/script-ch3.rpy", line 983.
+
+The label ch4_main is defined twice, at
+  File "script-ch4.rpyc", line 1 and
+  File "game/script-ch4.rpy", line 1.
+
+The label ch4_exclusive_natsuki is defined twice, at
+  File "script-ch4.rpyc", line 283 and
+  File "game/script-ch4.rpy", line 283.
+
+The label ch4_exclusive_yuri is defined twice, at
+  File "script-ch4.rpyc", line 696 and
+  File "game/script-ch4.rpy", line 695.
+
+The label ch4_end is defined twice, at
+  File "script-ch4.rpyc", line 1218 and
+  File "game/script-ch4.rpy", line 1216.
+
+The label ch4_end_yes is defined twice, at
+  File "script-ch4.rpyc", line 1301 and
+  File "game/script-ch4.rpy", line 1299.
+
+The label ch4_end_no is defined twice, at
+  File "script-ch4.rpyc", line 1390 and
+  File "game/script-ch4.rpy", line 1387.
+
+The label ch5_main is defined twice, at
+  File "script-ch5.rpyc", line 83 and
+  File "game/script-ch5.rpy", line 83.
+
+The label natsuki_exclusive_1 is defined twice, at
+  File "script-exclusives-natsuki.rpyc", line 1 and
+  File "game/script-exclusives-natsuki.rpy", line 1.
+
+The label natsuki_exclusive_2 is defined twice, at
+  File "script-exclusives-natsuki.rpyc", line 277 and
+  File "game/script-exclusives-natsuki.rpy", line 276.
+
+The label natsuki_exclusive_2_ch3 is defined twice, at
+  File "script-exclusives-natsuki.rpyc", line 287 and
+  File "game/script-exclusives-natsuki.rpy", line 286.
+
+The label sayori_exclusive_1 is defined twice, at
+  File "script-exclusives-sayori.rpyc", line 1 and
+  File "game/script-exclusives-sayori.rpy", line 1.
+
+The label sayori_exclusive_2 is defined twice, at
+  File "script-exclusives-sayori.rpyc", line 235 and
+  File "game/script-exclusives-sayori.rpy", line 234.
+
+The label yuri_exclusive_1 is defined twice, at
+  File "script-exclusives-yuri.rpyc", line 1 and
+  File "game/script-exclusives-yuri.rpy", line 1.
+
+The label yuri_exclusive_2 is defined twice, at
+  File "script-exclusives-yuri.rpyc", line 247 and
+  File "game/script-exclusives-yuri.rpy", line 247.
+
+The label yuri_exclusive_2_ch3 is defined twice, at
+  File "script-exclusives-yuri.rpyc", line 262 and
+  File "game/script-exclusives-yuri.rpy", line 262.
+
+The label poemresponse_start is defined twice, at
+  File "script-poemresponses.rpyc", line 1 and
+  File "game/script-poemresponses.rpy", line 1.
+
+The label poemresponse_loop is defined twice, at
+  File "script-poemresponses.rpyc", line 4 and
+  File "game/script-poemresponses.rpy", line 4.
+
+The label poemresponse_start2 is defined twice, at
+  File "script-poemresponses.rpyc", line 16 and
+  File "game/script-poemresponses.rpy", line 16.
+
+The label poemresponse_sayori is defined twice, at
+  File "script-poemresponses.rpyc", line 66 and
+  File "game/script-poemresponses.rpy", line 65.
+
+The label poemresponse_natsuki is defined twice, at
+  File "script-poemresponses.rpyc", line 82 and
+  File "game/script-poemresponses.rpy", line 81.
+
+The label poemresponse_yuri is defined twice, at
+  File "script-poemresponses.rpyc", line 98 and
+  File "game/script-poemresponses.rpy", line 97.
+
+The label poemresponse_monika is defined twice, at
+  File "script-poemresponses.rpyc", line 114 and
+  File "game/script-poemresponses.rpy", line 113.
+
+The label ch1_y_end is defined twice, at
+  File "script-poemresponses.rpyc", line 129 and
+  File "game/script-poemresponses.rpy", line 128.
+
+The label ch2_y_end is defined twice, at
+  File "script-poemresponses.rpyc", line 188 and
+  File "game/script-poemresponses.rpy", line 187.
+
+The label ch3_y_end is defined twice, at
+  File "script-poemresponses.rpyc", line 253 and
+  File "game/script-poemresponses.rpy", line 252.
+
+The label ch3_y_end_special is defined twice, at
+  File "script-poemresponses.rpyc", line 293 and
+  File "game/script-poemresponses.rpy", line 287.
+
+The label ch1_n_end is defined twice, at
+  File "script-poemresponses.rpyc", line 346 and
+  File "game/script-poemresponses.rpy", line 340.
+
+The label ch2_n_end is defined twice, at
+  File "script-poemresponses.rpyc", line 380 and
+  File "game/script-poemresponses.rpy", line 374.
+
+The label ch3_n_end is defined twice, at
+  File "script-poemresponses.rpyc", line 450 and
+  File "game/script-poemresponses.rpy", line 444.
+
+The label ch3_n_end_special is defined twice, at
+  File "script-poemresponses.rpyc", line 486 and
+  File "game/script-poemresponses.rpy", line 475.
+
+The label ch1_s_end is defined twice, at
+  File "script-poemresponses.rpyc", line 542 and
+  File "game/script-poemresponses.rpy", line 531.
+
+The label ch2_s_end is defined twice, at
+  File "script-poemresponses.rpyc", line 576 and
+  File "game/script-poemresponses.rpy", line 565.
+
+The label ch3_s_end is defined twice, at
+  File "script-poemresponses.rpyc", line 609 and
+  File "game/script-poemresponses.rpy", line 598.
+
+The label ch1_m_end is defined twice, at
+  File "script-poemresponses.rpyc", line 612 and
+  File "game/script-poemresponses.rpy", line 601.
+
+The label ch1_m_end2 is defined twice, at
+  File "script-poemresponses.rpyc", line 614 and
+  File "game/script-poemresponses.rpy", line 603.
+
+The label ch2_m_end is defined twice, at
+  File "script-poemresponses.rpyc", line 643 and
+  File "game/script-poemresponses.rpy", line 632.
+
+The label ch3_m_end is defined twice, at
+  File "script-poemresponses.rpyc", line 675 and
+  File "game/script-poemresponses.rpy", line 664.
+
+The label ch1_n_bad is defined twice, at
+  File "script-poemresponses.rpyc", line 708 and
+  File "game/script-poemresponses.rpy", line 697.
+
+The label ch1_n_med is defined twice, at
+  File "script-poemresponses.rpyc", line 771 and
+  File "game/script-poemresponses.rpy", line 760.
+
+The label ch1_n_good is defined twice, at
+  File "script-poemresponses.rpyc", line 787 and
+  File "game/script-poemresponses.rpy", line 776.
+
+The label ch2_n_bad is defined twice, at
+  File "script-poemresponses.rpyc", line 823 and
+  File "game/script-poemresponses.rpy", line 812.
+
+The label ch2_n_bad_sharedwithch3 is defined twice, at
+  File "script-poemresponses.rpyc", line 835 and
+  File "game/script-poemresponses.rpy", line 824.
+
+The label ch2_n_med is defined twice, at
+  File "script-poemresponses.rpyc", line 881 and
+  File "game/script-poemresponses.rpy", line 870.
+
+The label ch2_n_med_shared is defined twice, at
+  File "script-poemresponses.rpyc", line 888 and
+  File "game/script-poemresponses.rpy", line 877.
+
+The label ch2_n_good is defined twice, at
+  File "script-poemresponses.rpyc", line 931 and
+  File "game/script-poemresponses.rpy", line 920.
+
+The label ch2_n_good_sharedwithch3 is defined twice, at
+  File "script-poemresponses.rpyc", line 965 and
+  File "game/script-poemresponses.rpy", line 954.
+
+The label ch3_n_bad is defined twice, at
+  File "script-poemresponses.rpyc", line 1103 and
+  File "game/script-poemresponses.rpy", line 1094.
+
+The label ch3_n_bad12_shared is defined twice, at
+  File "script-poemresponses.rpyc", line 1106 and
+  File "game/script-poemresponses.rpy", line 1097.
+
+The label ch3_n_shared is defined twice, at
+  File "script-poemresponses.rpyc", line 1135 and
+  File "game/script-poemresponses.rpy", line 1126.
+
+The label ch3_n_med is defined twice, at
+  File "script-poemresponses.rpyc", line 1169 and
+  File "game/script-poemresponses.rpy", line 1160.
+
+The label ch3_n_good is defined twice, at
+  File "script-poemresponses.rpyc", line 1194 and
+  File "game/script-poemresponses.rpy", line 1185.
+
+The label ch1_s_bad is defined twice, at
+  File "script-poemresponses.rpyc", line 1325 and
+  File "game/script-poemresponses.rpy", line 1316.
+
+The label ch1_s_shared is defined twice, at
+  File "script-poemresponses.rpyc", line 1335 and
+  File "game/script-poemresponses.rpy", line 1326.
+
+The label ch1_s_med is defined twice, at
+  File "script-poemresponses.rpyc", line 1362 and
+  File "game/script-poemresponses.rpy", line 1353.
+
+The label ch1_s_good is defined twice, at
+  File "script-poemresponses.rpyc", line 1376 and
+  File "game/script-poemresponses.rpy", line 1367.
+
+The label ch2_s_bad is defined twice, at
+  File "script-poemresponses.rpyc", line 1413 and
+  File "game/script-poemresponses.rpy", line 1404.
+
+The label ch2_s_shared is defined twice, at
+  File "script-poemresponses.rpyc", line 1425 and
+  File "game/script-poemresponses.rpy", line 1416.
+
+The label ch2_s_med is defined twice, at
+  File "script-poemresponses.rpyc", line 1465 and
+  File "game/script-poemresponses.rpy", line 1456.
+
+The label ch2_s_med_shared is defined twice, at
+  File "script-poemresponses.rpyc", line 1476 and
+  File "game/script-poemresponses.rpy", line 1467.
+
+The label ch2_s_good is defined twice, at
+  File "script-poemresponses.rpyc", line 1521 and
+  File "game/script-poemresponses.rpy", line 1512.
+
+The label ch3_s_bad is defined twice, at
+  File "script-poemresponses.rpyc", line 1646 and
+  File "game/script-poemresponses.rpy", line 1637.
+
+The label ch3_s_med is defined twice, at
+  File "script-poemresponses.rpyc", line 1694 and
+  File "game/script-poemresponses.rpy", line 1685.
+
+The label ch3_s_good is defined twice, at
+  File "script-poemresponses.rpyc", line 1697 and
+  File "game/script-poemresponses.rpy", line 1688.
+
+The label ch1_y_bad is defined twice, at
+  File "script-poemresponses.rpyc", line 1771 and
+  File "game/script-poemresponses.rpy", line 1762.
+
+The label ch1_y_shared is defined twice, at
+  File "script-poemresponses.rpyc", line 1802 and
+  File "game/script-poemresponses.rpy", line 1793.
+
+The label ch1_y_med is defined twice, at
+  File "script-poemresponses.rpyc", line 1832 and
+  File "game/script-poemresponses.rpy", line 1823.
+
+The label ch1_y_good is defined twice, at
+  File "script-poemresponses.rpyc", line 1835 and
+  File "game/script-poemresponses.rpy", line 1826.
+
+The label ch2_y_bad is defined twice, at
+  File "script-poemresponses.rpyc", line 1874 and
+  File "game/script-poemresponses.rpy", line 1865.
+
+The label ch2_y_shared is defined twice, at
+  File "script-poemresponses.rpyc", line 1941 and
+  File "game/script-poemresponses.rpy", line 1932.
+
+The label ch2_y_med is defined twice, at
+  File "script-poemresponses.rpyc", line 1959 and
+  File "game/script-poemresponses.rpy", line 1950.
+
+The label ch2_y_good is defined twice, at
+  File "script-poemresponses.rpyc", line 1988 and
+  File "game/script-poemresponses.rpy", line 1979.
+
+The label ch2_y_good_shared is defined twice, at
+  File "script-poemresponses.rpyc", line 1998 and
+  File "game/script-poemresponses.rpy", line 1989.
+
+The label ch3_y_bad is defined twice, at
+  File "script-poemresponses.rpyc", line 2050 and
+  File "game/script-poemresponses.rpy", line 2041.
+
+The label ch3_y_bad12_shared is defined twice, at
+  File "script-poemresponses.rpyc", line 2052 and
+  File "game/script-poemresponses.rpy", line 2043.
+
+The label ch3_y_shared is defined twice, at
+  File "script-poemresponses.rpyc", line 2123 and
+  File "game/script-poemresponses.rpy", line 2114.
+
+The label ch3_y_med is defined twice, at
+  File "script-poemresponses.rpyc", line 2156 and
+  File "game/script-poemresponses.rpy", line 2147.
+
+The label ch3_y_good is defined twice, at
+  File "script-poemresponses.rpyc", line 2194 and
+  File "game/script-poemresponses.rpy", line 2185.
+
+The label ch3_y_good_shared is defined twice, at
+  File "script-poemresponses.rpyc", line 2235 and
+  File "game/script-poemresponses.rpy", line 2226.
+
+The label ch1_m_start is defined twice, at
+  File "script-poemresponses.rpyc", line 2329 and
+  File "game/script-poemresponses.rpy", line 2320.
+
+The label ch2_m_start is defined twice, at
+  File "script-poemresponses.rpyc", line 2376 and
+  File "game/script-poemresponses.rpy", line 2367.
+
+The label ch3_m_start is defined twice, at
+  File "script-poemresponses.rpyc", line 2410 and
+  File "game/script-poemresponses.rpy", line 2391.
+
+The label m_natsuki_1 is defined twice, at
+  File "script-poemresponses.rpyc", line 2440 and
+  File "game/script-poemresponses.rpy", line 2416.
+
+The label m_sayori_1 is defined twice, at
+  File "script-poemresponses.rpyc", line 2470 and
+  File "game/script-poemresponses.rpy", line 2446.
+
+The label m_yuri_1 is defined twice, at
+  File "script-poemresponses.rpyc", line 2497 and
+  File "game/script-poemresponses.rpy", line 2473.
+
+The label m_natsuki_2 is defined twice, at
+  File "script-poemresponses.rpyc", line 2522 and
+  File "game/script-poemresponses.rpy", line 2498.
+
+The label m_sayori_2 is defined twice, at
+  File "script-poemresponses.rpyc", line 2542 and
+  File "game/script-poemresponses.rpy", line 2518.
+
+The label m_yuri_2 is defined twice, at
+  File "script-poemresponses.rpyc", line 2566 and
+  File "game/script-poemresponses.rpy", line 2542.
+
+The label m_natsuki_3 is defined twice, at
+  File "script-poemresponses.rpyc", line 2603 and
+  File "game/script-poemresponses.rpy", line 2579.
+
+The label m_sayori_3 is defined twice, at
+  File "script-poemresponses.rpyc", line 2638 and
+  File "game/script-poemresponses.rpy", line 2614.
+
+The label m_yuri_3 is defined twice, at
+  File "script-poemresponses.rpyc", line 2669 and
+  File "game/script-poemresponses.rpy", line 2645.
+
+The label ch21_y_end is defined twice, at
+  File "script-poemresponses2.rpyc", line 1 and
+  File "game/script-poemresponses2.rpy", line 1.
+
+The label ch22_y_end is defined twice, at
+  File "script-poemresponses2.rpyc", line 4 and
+  File "game/script-poemresponses2.rpy", line 4.
+
+The label ch23_y_end is defined twice, at
+  File "script-poemresponses2.rpyc", line 23 and
+  File "game/script-poemresponses2.rpy", line 23.
+
+The label ch21_n_end is defined twice, at
+  File "script-poemresponses2.rpyc", line 52 and
+  File "game/script-poemresponses2.rpy", line 52.
+
+The label ch22_n_end is defined twice, at
+  File "script-poemresponses2.rpyc", line 54 and
+  File "game/script-poemresponses2.rpy", line 54.
+
+The label ch22_n_end2 is defined twice, at
+  File "script-poemresponses2.rpyc", line 83 and
+  File "game/script-poemresponses2.rpy", line 83.
+
+The label ch23_n_end is defined twice, at
+  File "script-poemresponses2.rpyc", line 156 and
+  File "game/script-poemresponses2.rpy", line 156.
+
+The label ch21_m_end is defined twice, at
+  File "script-poemresponses2.rpyc", line 197 and
+  File "game/script-poemresponses2.rpy", line 197.
+
+The label ch22_m_end is defined twice, at
+  File "script-poemresponses2.rpyc", line 200 and
+  File "game/script-poemresponses2.rpy", line 200.
+
+The label ch23_m_end is defined twice, at
+  File "script-poemresponses2.rpyc", line 227 and
+  File "game/script-poemresponses2.rpy", line 227.
+
+The label ch21_n_bad is defined twice, at
+  File "script-poemresponses2.rpyc", line 255 and
+  File "game/script-poemresponses2.rpy", line 255.
+
+The label ch21_n_med is defined twice, at
+  File "script-poemresponses2.rpyc", line 258 and
+  File "game/script-poemresponses2.rpy", line 258.
+
+The label ch21_n_good is defined twice, at
+  File "script-poemresponses2.rpyc", line 261 and
+  File "game/script-poemresponses2.rpy", line 261.
+
+The label ch22_n_bad is defined twice, at
+  File "script-poemresponses2.rpyc", line 264 and
+  File "game/script-poemresponses2.rpy", line 264.
+
+The label ch22_n_med is defined twice, at
+  File "script-poemresponses2.rpyc", line 296 and
+  File "game/script-poemresponses2.rpy", line 296.
+
+The label ch22_n_med_shared is defined twice, at
+  File "script-poemresponses2.rpyc", line 303 and
+  File "game/script-poemresponses2.rpy", line 303.
+
+The label ch22_n_med_shared2 is defined twice, at
+  File "script-poemresponses2.rpyc", line 339 and
+  File "game/script-poemresponses2.rpy", line 339.
+
+The label ch23_n_bad is defined twice, at
+  File "script-poemresponses2.rpyc", line 352 and
+  File "game/script-poemresponses2.rpy", line 352.
+
+The label ch23_n_bad_shared is defined twice, at
+  File "script-poemresponses2.rpyc", line 371 and
+  File "game/script-poemresponses2.rpy", line 371.
+
+The label ch23_n_med is defined twice, at
+  File "script-poemresponses2.rpyc", line 394 and
+  File "game/script-poemresponses2.rpy", line 394.
+
+The label ch23_n_shared is defined twice, at
+  File "script-poemresponses2.rpyc", line 405 and
+  File "game/script-poemresponses2.rpy", line 405.
+
+The label ch23_n_ygave is defined twice, at
+  File "script-poemresponses2.rpyc", line 426 and
+  File "game/script-poemresponses2.rpy", line 426.
+
+The label ch23_n_good is defined twice, at
+  File "script-poemresponses2.rpyc", line 442 and
+  File "game/script-poemresponses2.rpy", line 442.
+
+The label ch21_y_bad is defined twice, at
+  File "script-poemresponses2.rpyc", line 445 and
+  File "game/script-poemresponses2.rpy", line 445.
+
+The label ch21_y_med is defined twice, at
+  File "script-poemresponses2.rpyc", line 448 and
+  File "game/script-poemresponses2.rpy", line 448.
+
+The label ch21_y_good is defined twice, at
+  File "script-poemresponses2.rpyc", line 451 and
+  File "game/script-poemresponses2.rpy", line 451.
+
+The label ch22_y_bad is defined twice, at
+  File "script-poemresponses2.rpyc", line 454 and
+  File "game/script-poemresponses2.rpy", line 454.
+
+The label ch22_y_med is defined twice, at
+  File "script-poemresponses2.rpyc", line 457 and
+  File "game/script-poemresponses2.rpy", line 457.
+
+The label ch22_y_good is defined twice, at
+  File "script-poemresponses2.rpyc", line 478 and
+  File "game/script-poemresponses2.rpy", line 478.
+
+The label ch22_y_good_shared is defined twice, at
+  File "script-poemresponses2.rpyc", line 489 and
+  File "game/script-poemresponses2.rpy", line 489.
+
+The label ch23_y_bad is defined twice, at
+  File "script-poemresponses2.rpyc", line 524 and
+  File "game/script-poemresponses2.rpy", line 524.
+
+The label ch23_y_med is defined twice, at
+  File "script-poemresponses2.rpyc", line 527 and
+  File "game/script-poemresponses2.rpy", line 527.
+
+The label ch23_y_good is defined twice, at
+  File "script-poemresponses2.rpyc", line 530 and
+  File "game/script-poemresponses2.rpy", line 530.
+
+The label ch21_m_start is defined twice, at
+  File "script-poemresponses2.rpyc", line 574 and
+  File "game/script-poemresponses2.rpy", line 574.
+
+The label ch22_m_start is defined twice, at
+  File "script-poemresponses2.rpyc", line 609 and
+  File "game/script-poemresponses2.rpy", line 609.
+
+The label ch23_m_start is defined twice, at
+  File "script-poemresponses2.rpyc", line 633 and
+  File "game/script-poemresponses2.rpy", line 633.
+
+The label m2_natsuki_1 is defined twice, at
+  File "script-poemresponses2.rpyc", line 652 and
+  File "game/script-poemresponses2.rpy", line 651.
+
+The label m2_yuri_1 is defined twice, at
+  File "script-poemresponses2.rpyc", line 677 and
+  File "game/script-poemresponses2.rpy", line 676.
+
+The label m2_yuri_2 is defined twice, at
+  File "script-poemresponses2.rpyc", line 727 and
+  File "game/script-poemresponses2.rpy", line 726.
+
+The label m2_yuri_3 is defined twice, at
+  File "script-poemresponses2.rpyc", line 747 and
+  File "game/script-poemresponses2.rpy", line 746.
+DPI scale factor: 1.500000
+Interface start took 0.27s
+
+primary display bounds: (0, 0, 3840, 2160)
+Windowed mode.
+Screen sizes: virtual=(1280, 720) physical=(2139, 1203) drawable=(2139, 1203)
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce GTX 980 Ti/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 388.59'
+Display Info: <Info({'blit_sw_CC': False, 'refresh_rate': 60, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 2160, 'current_w': 3840, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
+Fixed-function is blacklisted.
+Extensions:
+    
+    GL_AMD_multi_draw_indirect
+    GL_AMD_seamless_cubemap_per_texture
+    GL_AMD_vertex_shader_layer
+    GL_AMD_vertex_shader_viewport_index
+    GL_ARB_ES2_compatibility
+    GL_ARB_ES3_1_compatibility
+    GL_ARB_ES3_2_compatibility
+    GL_ARB_ES3_compatibility
+    GL_ARB_arrays_of_arrays
+    GL_ARB_base_instance
+    GL_ARB_bindless_texture
+    GL_ARB_blend_func_extended
+    GL_ARB_buffer_storage
+    GL_ARB_clear_buffer_object
+    GL_ARB_clear_texture
+    GL_ARB_clip_control
+    GL_ARB_color_buffer_float
+    GL_ARB_compatibility
+    GL_ARB_compressed_texture_pixel_storage
+    GL_ARB_compute_shader
+    GL_ARB_compute_variable_group_size
+    GL_ARB_conditional_render_inverted
+    GL_ARB_conservative_depth
+    GL_ARB_copy_buffer
+    GL_ARB_copy_image
+    GL_ARB_cull_distance
+    GL_ARB_debug_output
+    GL_ARB_depth_buffer_float
+    GL_ARB_depth_clamp
+    GL_ARB_depth_texture
+    GL_ARB_derivative_control
+    GL_ARB_direct_state_access
+    GL_ARB_draw_buffers
+    GL_ARB_draw_buffers_blend
+    GL_ARB_draw_elements_base_vertex
+    GL_ARB_draw_indirect
+    GL_ARB_draw_instanced
+    GL_ARB_enhanced_layouts
+    GL_ARB_explicit_attrib_location
+    GL_ARB_explicit_uniform_location
+    GL_ARB_fragment_coord_conventions
+    GL_ARB_fragment_layer_viewport
+    GL_ARB_fragment_program
+    GL_ARB_fragment_program_shadow
+    GL_ARB_fragment_shader
+    GL_ARB_fragment_shader_interlock
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_framebuffer_object
+    GL_ARB_framebuffer_sRGB
+    GL_ARB_geometry_shader4
+    GL_ARB_get_program_binary
+    GL_ARB_get_texture_sub_image
+    GL_ARB_gl_spirv
+    GL_ARB_gpu_shader5
+    GL_ARB_gpu_shader_fp64
+    GL_ARB_gpu_shader_int64
+    GL_ARB_half_float_pixel
+    GL_ARB_half_float_vertex
+    GL_ARB_imaging
+    GL_ARB_indirect_parameters
+    GL_ARB_instanced_arrays
+    GL_ARB_internalformat_query
+    GL_ARB_internalformat_query2
+    GL_ARB_invalidate_subdata
+    GL_ARB_map_buffer_alignment
+    GL_ARB_map_buffer_range
+    GL_ARB_multi_bind
+    GL_ARB_multi_draw_indirect
+    GL_ARB_multisample
+    GL_ARB_multitexture
+    GL_ARB_occlusion_query
+    GL_ARB_occlusion_query2
+    GL_ARB_parallel_shader_compile
+    GL_ARB_pipeline_statistics_query
+    GL_ARB_pixel_buffer_object
+    GL_ARB_point_parameters
+    GL_ARB_point_sprite
+    GL_ARB_polygon_offset_clamp
+    GL_ARB_post_depth_coverage
+    GL_ARB_program_interface_query
+    GL_ARB_provoking_vertex
+    GL_ARB_query_buffer_object
+    GL_ARB_robust_buffer_access_behavior
+    GL_ARB_robustness
+    GL_ARB_sample_locations
+    GL_ARB_sample_shading
+    GL_ARB_sampler_objects
+    GL_ARB_seamless_cube_map
+    GL_ARB_seamless_cubemap_per_texture
+    GL_ARB_separate_shader_objects
+    GL_ARB_shader_atomic_counter_ops
+    GL_ARB_shader_atomic_counters
+    GL_ARB_shader_ballot
+    GL_ARB_shader_bit_encoding
+    GL_ARB_shader_clock
+    GL_ARB_shader_draw_parameters
+    GL_ARB_shader_group_vote
+    GL_ARB_shader_image_load_store
+    GL_ARB_shader_image_size
+    GL_ARB_shader_objects
+    GL_ARB_shader_precision
+    GL_ARB_shader_storage_buffer_object
+    GL_ARB_shader_subroutine
+    GL_ARB_shader_texture_image_samples
+    GL_ARB_shader_texture_lod
+    GL_ARB_shader_viewport_layer_array
+    GL_ARB_shading_language_100
+    GL_ARB_shading_language_420pack
+    GL_ARB_shading_language_include
+    GL_ARB_shading_language_packing
+    GL_ARB_shadow
+    GL_ARB_sparse_buffer
+    GL_ARB_sparse_texture
+    GL_ARB_sparse_texture2
+    GL_ARB_sparse_texture_clamp
+    GL_ARB_spirv_extensions
+    GL_ARB_stencil_texturing
+    GL_ARB_sync
+    GL_ARB_tessellation_shader
+    GL_ARB_texture_barrier
+    GL_ARB_texture_border_clamp
+    GL_ARB_texture_buffer_object
+    GL_ARB_texture_buffer_object_rgb32
+    GL_ARB_texture_buffer_range
+    GL_ARB_texture_compression
+    GL_ARB_texture_compression_bptc
+    GL_ARB_texture_compression_rgtc
+    GL_ARB_texture_cube_map
+    GL_ARB_texture_cube_map_array
+    GL_ARB_texture_env_add
+    GL_ARB_texture_env_combine
+    GL_ARB_texture_env_crossbar
+    GL_ARB_texture_env_dot3
+    GL_ARB_texture_filter_anisotropic
+    GL_ARB_texture_filter_minmax
+    GL_ARB_texture_float
+    GL_ARB_texture_gather
+    GL_ARB_texture_mirror_clamp_to_edge
+    GL_ARB_texture_mirrored_repeat
+    GL_ARB_texture_multisample
+    GL_ARB_texture_non_power_of_two
+    GL_ARB_texture_query_levels
+    GL_ARB_texture_query_lod
+    GL_ARB_texture_rectangle
+    GL_ARB_texture_rg
+    GL_ARB_texture_rgb10_a2ui
+    GL_ARB_texture_stencil8
+    GL_ARB_texture_storage
+    GL_ARB_texture_storage_multisample
+    GL_ARB_texture_swizzle
+    GL_ARB_texture_view
+    GL_ARB_timer_query
+    GL_ARB_transform_feedback2
+    GL_ARB_transform_feedback3
+    GL_ARB_transform_feedback_instanced
+    GL_ARB_transform_feedback_overflow_query
+    GL_ARB_transpose_matrix
+    GL_ARB_uniform_buffer_object
+    GL_ARB_vertex_array_bgra
+    GL_ARB_vertex_array_object
+    GL_ARB_vertex_attrib_64bit
+    GL_ARB_vertex_attrib_binding
+    GL_ARB_vertex_buffer_object
+    GL_ARB_vertex_program
+    GL_ARB_vertex_shader
+    GL_ARB_vertex_type_10f_11f_11f_rev
+    GL_ARB_vertex_type_2_10_10_10_rev
+    GL_ARB_viewport_array
+    GL_ARB_window_pos
+    GL_ATI_draw_buffers
+    GL_ATI_texture_float
+    GL_ATI_texture_mirror_once
+    GL_EXTX_framebuffer_mixed_formats
+    GL_EXT_Cg_shader
+    GL_EXT_abgr
+    GL_EXT_bgra
+    GL_EXT_bindable_uniform
+    GL_EXT_blend_color
+    GL_EXT_blend_equation_separate
+    GL_EXT_blend_func_separate
+    GL_EXT_blend_minmax
+    GL_EXT_blend_subtract
+    GL_EXT_compiled_vertex_array
+    GL_EXT_depth_bounds_test
+    GL_EXT_direct_state_access
+    GL_EXT_draw_buffers2
+    GL_EXT_draw_instanced
+    GL_EXT_draw_range_elements
+    GL_EXT_fog_coord
+    GL_EXT_framebuffer_blit
+    GL_EXT_framebuffer_multisample
+    GL_EXT_framebuffer_multisample_blit_scaled
+    GL_EXT_framebuffer_object
+    GL_EXT_framebuffer_sRGB
+    GL_EXT_geometry_shader4
+    GL_EXT_gpu_program_parameters
+    GL_EXT_gpu_shader4
+    GL_EXT_import_sync_object
+    GL_EXT_memory_object
+    GL_EXT_memory_object_win32
+    GL_EXT_multi_draw_arrays
+    GL_EXT_packed_depth_stencil
+    GL_EXT_packed_float
+    GL_EXT_packed_pixels
+    GL_EXT_pixel_buffer_object
+    GL_EXT_point_parameters
+    GL_EXT_polygon_offset_clamp
+    GL_EXT_post_depth_coverage
+    GL_EXT_provoking_vertex
+    GL_EXT_raster_multisample
+    GL_EXT_rescale_normal
+    GL_EXT_secondary_color
+    GL_EXT_semaphore
+    GL_EXT_semaphore_win32
+    GL_EXT_separate_shader_objects
+    GL_EXT_separate_specular_color
+    GL_EXT_shader_image_load_formatted
+    GL_EXT_shader_image_load_store
+    GL_EXT_shader_integer_mix
+    GL_EXT_shadow_funcs
+    GL_EXT_sparse_texture2
+    GL_EXT_stencil_two_side
+    GL_EXT_stencil_wrap
+    GL_EXT_texture3D
+    GL_EXT_texture_array
+    GL_EXT_texture_buffer_object
+    GL_EXT_texture_compression_dxt1
+    GL_EXT_texture_compression_latc
+    GL_EXT_texture_compression_rgtc
+    GL_EXT_texture_compression_s3tc
+    GL_EXT_texture_cube_map
+    GL_EXT_texture_edge_clamp
+    GL_EXT_texture_env_add
+    GL_EXT_texture_env_combine
+    GL_EXT_texture_env_dot3
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_texture_filter_minmax
+    GL_EXT_texture_integer
+    GL_EXT_texture_lod
+    GL_EXT_texture_lod_bias
+    GL_EXT_texture_mirror_clamp
+    GL_EXT_texture_object
+    GL_EXT_texture_sRGB
+    GL_EXT_texture_sRGB_decode
+    GL_EXT_texture_shared_exponent
+    GL_EXT_texture_storage
+    GL_EXT_texture_swizzle
+    GL_EXT_timer_query
+    GL_EXT_transform_feedback2
+    GL_EXT_vertex_array
+    GL_EXT_vertex_array_bgra
+    GL_EXT_vertex_attrib_64bit
+    GL_EXT_win32_keyed_mutex
+    GL_EXT_window_rectangles
+    GL_IBM_rasterpos_clip
+    GL_IBM_texture_mirrored_repeat
+    GL_KHR_blend_equation_advanced
+    GL_KHR_blend_equation_advanced_coherent
+    GL_KHR_context_flush_control
+    GL_KHR_debug
+    GL_KHR_no_error
+    GL_KHR_parallel_shader_compile
+    GL_KHR_robust_buffer_access_behavior
+    GL_KHR_robustness
+    GL_KTX_buffer_region
+    GL_NVX_conditional_render
+    GL_NVX_gpu_memory_info
+    GL_NVX_multigpu_info
+    GL_NVX_nvenc_interop
+    GL_NV_ES1_1_compatibility
+    GL_NV_ES3_1_compatibility
+    GL_NV_alpha_to_coverage_dither_control
+    GL_NV_bindless_multi_draw_indirect
+    GL_NV_bindless_multi_draw_indirect_count
+    GL_NV_bindless_texture
+    GL_NV_blend_equation_advanced
+    GL_NV_blend_equation_advanced_coherent
+    GL_NV_blend_minmax_factor
+    GL_NV_blend_square
+    GL_NV_command_list
+    GL_NV_compute_program5
+    GL_NV_conditional_render
+    GL_NV_conservative_raster
+    GL_NV_conservative_raster_dilate
+    GL_NV_copy_depth_to_color
+    GL_NV_copy_image
+    GL_NV_depth_buffer_float
+    GL_NV_depth_clamp
+    GL_NV_draw_texture
+    GL_NV_draw_vulkan_image
+    GL_NV_explicit_multisample
+    GL_NV_fence
+    GL_NV_fill_rectangle
+    GL_NV_float_buffer
+    GL_NV_fog_distance
+    GL_NV_fragment_coverage_to_color
+    GL_NV_fragment_program
+    GL_NV_fragment_program2
+    GL_NV_fragment_program_option
+    GL_NV_fragment_shader_interlock
+    GL_NV_framebuffer_mixed_samples
+    GL_NV_framebuffer_multisample_coverage
+    GL_NV_geometry_shader4
+    GL_NV_geometry_shader_passthrough
+    GL_NV_gpu_program4
+    GL_NV_gpu_program4_1
+    GL_NV_gpu_program5
+    GL_NV_gpu_program5_mem_extended
+    GL_NV_gpu_program_fp64
+    GL_NV_gpu_shader5
+    GL_NV_half_float
+    GL_NV_internalformat_sample_query
+    GL_NV_light_max_exponent
+    GL_NV_multisample_coverage
+    GL_NV_multisample_filter_hint
+    GL_NV_occlusion_query
+    GL_NV_packed_depth_stencil
+    GL_NV_parameter_buffer_object
+    GL_NV_parameter_buffer_object2
+    GL_NV_path_rendering
+    GL_NV_path_rendering_shared_edge
+    GL_NV_pixel_data_range
+    GL_NV_point_sprite
+    GL_NV_primitive_restart
+    GL_NV_query_resource
+    GL_NV_query_resource_tag
+    GL_NV_register_combiners
+    GL_NV_register_combiners2
+    GL_NV_sample_locations
+    GL_NV_sample_mask_override_coverage
+    GL_NV_shader_atomic_counters
+    GL_NV_shader_atomic_float
+    GL_NV_shader_atomic_fp16_vector
+    GL_NV_shader_atomic_int64
+    GL_NV_shader_buffer_load
+    GL_NV_shader_storage_buffer_object
+    GL_NV_shader_thread_group
+    GL_NV_shader_thread_shuffle
+    GL_NV_texgen_reflection
+    GL_NV_texture_barrier
+    GL_NV_texture_compression_vtc
+    GL_NV_texture_env_combine4
+    GL_NV_texture_multisample
+    GL_NV_texture_rectangle
+    GL_NV_texture_rectangle_compressed
+    GL_NV_texture_shader
+    GL_NV_texture_shader2
+    GL_NV_texture_shader3
+    GL_NV_transform_feedback
+    GL_NV_transform_feedback2
+    GL_NV_uniform_buffer_unified_memory
+    GL_NV_vertex_array_range
+    GL_NV_vertex_array_range2
+    GL_NV_vertex_attrib_integer_64bit
+    GL_NV_vertex_buffer_unified_memory
+    GL_NV_vertex_program
+    GL_NV_vertex_program1_1
+    GL_NV_vertex_program2
+    GL_NV_vertex_program2_option
+    GL_NV_vertex_program3
+    GL_NV_viewport_array2
+    GL_NV_viewport_swizzle
+    GL_S3_s3tc
+    GL_SGIS_generate_mipmap
+    GL_SGIS_texture_lod
+    GL_SGIX_depth_texture
+    GL_SGIX_shadow
+    GL_SUN_slice_accum
+    GL_WIN_swap_hint
+    WGL_EXT_swap_control
+Number of texture units: 4
+Using shader environment.
+Using copy RTT.
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 16384
+- 64px textures work.
+- 128px textures work.
+- 256px textures work.
+- 512px textures work.
+- 1024px textures work.
+- 2048px textures work.
+Total time until interface ready: 3.8679997921s

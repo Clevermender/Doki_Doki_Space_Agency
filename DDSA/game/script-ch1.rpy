@@ -1,6 +1,6 @@
 # Chapter 1 static content. Poem responses called from here are in script-poemresponses.rpy
 
-label ch1_main:
+label ddsa_ch1_main:
     scene bg club_day
     with dissolve_scene_half
     play music t2
@@ -127,7 +127,7 @@ label ch1_main:
     "Yuri's face is already buried in a book."
     "I can't help but notice her intense expression, like she was waiting for this chance."
     "Meanwhile, Natsuki is rummaging around in the closet."
-    
+
     #Call exclusive scene
     $ nextscene = poemwinner[0] + "_exclusive_" + str(eval(poemwinner[0][0] + "_appeal"))
     call expression nextscene
@@ -159,7 +159,7 @@ label ch1_main:
     return
 
 
-label ch1_end:
+label ddsa_ch1_end:
     stop music fadeout 1.0
     scene bg club_day
     with wipeleft_scene
@@ -416,7 +416,7 @@ label ch1_end:
     "Let's do this!"
     return
 
-label ch1_end_natsuki:
+label ddsa_ch1_end_natsuki:
     $ ch1_choice = "natsuki"
     stop music fadeout 1.0
     mc "Um..."
@@ -558,8 +558,8 @@ label ch1_end_natsuki:
     "But in the end..."
     "...I guess it's been worth it so far."
     return
-    
-label ch1_end_yuri:
+
+label ddsa_ch1_end_yuri:
     $ ch1_choice = "yuri"
     stop music fadeout 1.0
     mc "Natsuki."
@@ -678,7 +678,7 @@ label ch1_end_yuri:
     y "Y-Yeah."
     return
 
-label ch1_end_sayori:
+label ddsa_ch1_end_sayori:
     $ ch1_choice = "sayori"
     mc "N-Natsuki..."
     show natsuki 5f

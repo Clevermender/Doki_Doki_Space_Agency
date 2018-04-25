@@ -80,7 +80,7 @@ image splash_glitch_y:
         repeat
 
 
-label ch5_main:
+label ddsa_ch5_main:
     stop music fadeout 2.0
     scene bg residential_day
     with dissolve_scene_full

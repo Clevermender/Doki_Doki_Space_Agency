@@ -1,4 +1,4 @@
-label ch3_main:
+label ddsa_ch3_main:
     scene bg club_day
     with dissolve_scene_half
     play music t3
@@ -205,7 +205,7 @@ label ch3_main:
     else:
         jump ch3_start_none
 
-label ch3_start_natsuki:
+label ddsa_ch3_start_natsuki:
     play music t6 fadeout 1
     show natsuki 3c at t11 zorder 2
     n "Hey, you."
@@ -275,7 +275,7 @@ label ch3_start_natsuki:
         jump ch3_start_none
     return
 
-label ch3_start_yuri:
+label ddsa_ch3_start_yuri:
     "Why does it feel like I'm being watched...?"
     "I glance around the room."
     show yuri 2t at t11 zorder 2
@@ -373,7 +373,7 @@ label ch3_start_yuri:
         jump ch3_start_none
     return
 
-label ch3_start_none:
+label ddsa_ch3_start_none:
     if not renpy.music.get_playing(channel='music') == audio.t3:
         stop music fadeout 1.0
     scene bg club_day
@@ -394,7 +394,7 @@ label ch3_start_none:
     return
 
 
-label ch3_end:
+label ddsa_ch3_end:
     stop music fadeout 1.0
     scene bg club_day
     show monika 4b at t32 zorder 2
@@ -694,7 +694,7 @@ label ch3_end_sayori:
     return
 
 
-label ch3_end_monika:
+label ddsa_ch3_end_monika:
     $ help_monika = True
     mc "Well, I guess I should probably be helping Monika..."
     show monika 5 at f32 zorder 3
@@ -787,7 +787,7 @@ label ch3_end_monika:
             call ch3_end_sayori
     return
 
-label ch3_end_natsuki:
+label ddsa_ch3_end_natsuki:
     $ch4_scene = "natsuki"
     mc "Well, baking sounds like it could be fun..."
     mc "And you guys made it sound like a lot of work, so it could probably use two people."
@@ -980,7 +980,7 @@ label ch3_end_natsuki:
     n 5u "...Never mind."
     return
 
-label ch3_end_yuri:
+label ddsa_ch3_end_yuri:
     $ ch4_scene = "yuri"
     mc "Well, I'll probably be most useful helping out Yuri..."
     show yuri at f33 zorder 3
