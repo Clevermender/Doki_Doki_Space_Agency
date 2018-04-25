@@ -39,7 +39,7 @@ label do_have_time:
     "I dont need to hurry."
     return
 
-label y_rt
+label y_rt:
     "Well it's time to work on this project."
     "I'm going to help Yuri."
     "She is apparently working with communcations and control, and that is not really like her."

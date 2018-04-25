@@ -628,7 +628,7 @@ Rage, rage against the dying of the light."""# G G originality
     author = "monika",
     title = "Memes",
     text = """\
-Absolutely\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\Disgusting\n\n*insert random anime/manga/vn character here\n\n\n*dab\n\n\n\n\n*plays fortnite\n\n\n\nXD\n\nEEEEKS DEE\n\nSigned, The Meme Lord Memika
+Absolutely\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\Disgusting\n\n*insert random anime/manga/vn character here\n\n\n*dab\n\n\n\n\n*plays fortnite\n\n\n\nXD\n\nEEEEKS DEE\n\nSigned, The Meme Lord Memika"""
     )
 
 #These are the images used to show a poem

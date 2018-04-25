@@ -365,7 +365,7 @@ label script_main:
 
     scene bg club_day2
     show monika 2e at t11 zorder 2
-    m "Okay everyone!" 
+    m "Okay everyone!"
     if lau_nch1:
         m "It's time to go over yesterdays launch."
         m "And i have some good news!"
@@ -382,6 +382,6 @@ label script_main:
         m "Part of the RCS thrusters have been found."
         m "We can't say what caused the failiure yet."
         m "But it looks like one of the thrusters broke off."
-        m "The fuel then started to leak and was ignited by the main engines heat or flame.
+        m "The fuel then started to leak and was ignited by the main engines heat or flame."
         m "This is only a theory though." #but thats just theory, a rocket failiure theory, thanks for surviving the so called humor. #In all seriousness, Matpat is actually a bad theorist. Esp. his Doki theories are badly reaserched and not well presented ｢Steeeal / An_Alt｣
     m "Okay everyone!" #Redundancy / a double okay everyone

@@ -4,16 +4,16 @@
     # if persistent.playthrough == 0:
     #     # Intro
     #     $ chapter = 0
-#---------------------------------# 
+#---------------------------------#
 
-label act1
+label act1:
      call ch0_main
-     
+
 #---------------------------------#
 
      # Poem minigame 1
      call poem
-     
+
 #---------------------------------#
 
      # Day 1
@@ -21,7 +21,7 @@ label act1
      call ch1_main
      call poemresponse_start
      call ch1_end
-     
+
 #---------------------------------#
 
      # Day 2
@@ -29,12 +29,12 @@ label act1
      call ch2_main
      call poemresponse_start
      call ch2_end
-     
+
 #---------------------------------#
 
      # Poem minigame 3
      call poem
-     
+
 #---------------------------------#
 
      # Day 3
@@ -42,10 +42,10 @@ label act1
      call ch3_main
      call poemresponse_start
      call ch3_end
-     
+
 #---------------------------------#
 
      $ chapter = 4
      call ch4_main
-     
+
 #---------------------------------#
