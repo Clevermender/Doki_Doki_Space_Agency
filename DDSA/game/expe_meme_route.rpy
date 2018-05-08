@@ -12,4 +12,5 @@ label meme_route:
     $ consolehistory = []
     call updateconsole("os.remove(\"characters/mc.chr\")", "Failed. Reason: WTH Monika")
     m "darnit!"
+    call updateconsole("os.remove(\"characters/monika.chr\")"), "Failed. Reason: monika.chr does not exist")
     return

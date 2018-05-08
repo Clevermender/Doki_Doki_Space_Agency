@@ -123,3 +123,11 @@ label launch_auto:
     "And so it did."
     "The launch continiued as normal."
     return
+
+label launch_suc:
+    m "Alright, seperation of the last stage in 20 seconds."
+    s "I think the telescope is below our target altitude."
+    s "But can we have a celebration after the launch?"
+    s "Im hungry."
+    m "Sayori, don't take this on the main line, okay?"
+    s "Sorry!"
