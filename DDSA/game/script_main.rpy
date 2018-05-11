@@ -371,7 +371,7 @@ label script_main:
         m "And i have some good news!"
         m "The good news are that we now own the space center, because we are apparently good enough to handle it."
         "What?" #MC is thinking this, not saying it! ima dummy
-        "Why would four eighteen year old high school students get to own and manage a space center" #gotta remember the mc sayer (and the closing ")
+        "Why would four eighteen year old high school students get to own and manage a space center?" #gotta remember the mc sayer (and the closing ")
         "I don't know what Monika did for this, but i want to know." #lol
         m "And because of this, we do now have access to even more advanced technology."
         m "Like advanced robotics."
