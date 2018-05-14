@@ -386,13 +386,13 @@ label script_main:
         "The truth is, i did not really have anything to learn."
         "Monika did not give me a solid role."
         "So i just looked through the basics of what goes in to a rocket launch, and what happens before."
-        "And what i found out was that the rocket is built according to the mission conditions and purpose." #I did have to look up how purpose was spelled.
+        "And what I found out was that the rocket is built according to the mission conditions and purpose." #I did have to look up how purpose was spelled. #rip u
         hide monika
         show sayori 2x at t21 zorder 2
         s "I did!"
         show sayori 2x at h32 zorder 2
         show yuri 2e at f33 zorder 2
-        y "{cps=*1}Me to--{/cps}{nw}"
+        y "{cps=*1}Me too--{/cps}{nw}"
         show yuri 2p
         show sayori 1f
         n 4y "Yeah you don't have to tell us."
