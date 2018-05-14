@@ -98,21 +98,21 @@ label launch_roll:
     y "Okay... r-rolling."
     "Yuri moves the the mouse and clicks a few times before starting to type."
     "She then hits enter."
-    "On one of the cameras we saw the roll thrusters on the rocket light up as it began the 90 degree roll."
+    "On one of the cameras we saw the RCS thrusters on the rocket light up as it began the 90 degree roll."
     "The rocket has now 25 degrees to go, and the reverse thrusters started to slow the rolling so that we don't roll to far."
     "Once we had rolled 90 degrees, the thrusters stoped."
     "But one of the thrusters started to burn with full thrust."
     $ lausu = False
     "The rocket started to shake as it rotated on both the pitch and roll axis."
     m "Yuri!"
-    m "Engage the eme-"
+    m "Engage the eme-!"
     call showpoem(poem_m5)
-    "Just as she said that, all the moniters displaying the cameras on the rocket went black and and all of the monitors and screens recived the loss Of signal message."
+    "Just as she said that, all the moniters displaying the cameras on the rocket went black and and all of the monitors and screens recived the Loss of Signal message."
     return
 
 label launch_auto:
     if nat_engi:
-        mc "The rocket can fix this automaticly."
+        mc "The rocket can fix this automatically."
         $ lausu = True
     else:
         n "It is doing good right now, so we should not change anything."
@@ -121,13 +121,17 @@ label launch_auto:
         m "Okay, let it be."
         m "Auto will take care of this."
     "And so it did."
-    "The launch continiued as normal."
+    "The launch continiued normally."
     return
 
 label launch_suc:
     m "Alright, seperation of the last stage in 20 seconds."
+    s "Um~"
     s "I think the telescope is below our target altitude."
-    s "But can we have a celebration after the launch?"
-    s "Im hungry."
-    m "Sayori, don't take this on the main line, okay?"
+    s "Umm~"
+    s "Can we have a celebration later?"
+    s "Im hungry~"
+    mc "..."
+    m "Sayori, not on the main line!"
+    s "Eh!{nw}"
     s "Sorry!"
