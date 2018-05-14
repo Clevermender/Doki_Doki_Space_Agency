@@ -375,7 +375,37 @@ label script_main:
         "I don't know what Monika did for this, but i want to know." #lol
         m "And because of this, we do now have access to even more advanced technology."
         m "Like advanced robotics."
-        m "I have even found a german V2 from world war two!" #Because Japan and Germany where both big axis powers, and japan loved to steal other countries designs.
+        m "We only had access to simple robotics before."
+        m "Like the ability to extend solar panels, or antennas."
+        m "Basically, if we want to build things with arms, then we can do that now."
+        show natsuki 5q at t22 zorder 2
+        show monika 2a at t21 zorder 2
+        n "Yeah, i already know what this is."
+        n "I did read into this, as you told us to do."
+        n 5k "And i sure do hope that everyone else has."
+        "The truth is, i did not really have anything to learn."
+        "Monika did not give me a solid role."
+        "So i just looked through the basics of what goes in to a rocket launch, and what happens before."
+        "And what i found out was that the rocket is built according to the mission conditions and purpose." #I did have to look up how purpose was spelled.
+        hide monika
+        show sayori 2x at t21 zorder 2
+        s "I did!"
+        show sayori 2x at h32 zorder 2
+        show yuri 2e at f33 zorder 2
+        y "{cps=*1}Me to--{/cps}{nw}"
+        show yuri 2p
+        show sayori 1f
+        n 4y "Yeah you don't have to tell us."
+        n "We all know you have."
+        n 5w "You probably read about everyone else's subject too."
+        n "I bet you even can run a space agency all by yourself."
+        n 5y "Right?"
+        y 4c "..."
+        n 1c "Wait, i was only joking."
+        n "Don't tell me that you actually did do that..."
+        y "I... I-i did..."
+        y 4b "I ran out of things to read so i looked into what others was doing."
+        #Enough for now
     else:
         m 1e "It's time to go over yesterdays failiure."
         m "We do have some clues though..."
