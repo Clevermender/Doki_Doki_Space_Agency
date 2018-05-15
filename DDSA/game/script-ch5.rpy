@@ -172,7 +172,7 @@ label ddsa_ch5_main:
     "Why was I so selfish?"
     "This is my fault--!"
     "My swarming thoughts keep telling me everything I did to make this happen."
-    "If I just spent more time not worrying about her.
+    "If I just spent more time not worrying about her."
     "What if i just went to her house..."
     if sayori_confess:
         "And remained friends with her, like it always has been..."
