@@ -37,30 +37,30 @@ label dont_have_time:
 
 label do_have_time:
     "I dont need to hurry."
-        "I once i arrive at the fountains, i see Yuri walking towards me."
-        "She then notices me."
-        mc "There you are."
-        mc "I was looking for you."
-        y "Why?"
-        mc "The club is about to start."
-        mc "Monika has something important to announce."
-        y "What is it abo-"
-        mc "I dont know!"
-        show yuri 4c
-        y "I'm sorry..."
-        mc "For what?"
-        y "I..."
-        mc "You did nothing wrong."
-        mc "Im just a little bit stressed out."
-        y 4a "Are you sure?"
-        mc "Yes..."
-        y 1l "Alright."
-        y 1b "Lets go."
-        mc "Wait, we need to find Natsuki first."
-        y 1j "I saw her by the vending machines just a few minutes ago."
-        mc "Can you go and get her?"
-        mc "I will go and tell the others."
-        y 1k "I will try."
+    "I once i arrive at the fountains, i see Yuri walking towards me."
+    "She then notices me."
+    mc "There you are."
+    mc "I was looking for you."
+    y "Why?"
+    mc "The club is about to start."
+    mc "Monika has something important to announce."
+    y "What is it abo-"
+    mc "I dont know!"
+    show yuri 4c
+    y "I'm sorry..."
+    mc "For what?"
+    y "I..."
+    mc "You did nothing wrong."
+    mc "Im just a little bit stressed out."
+    y 4a "Are you sure?"
+    mc "Yes..."
+    y 1l "Alright."
+    y 1b "Lets go."
+    mc "Wait, we need to find Natsuki first."
+    y 1j "I saw her by the vending machines just a few minutes ago."
+    mc "Can you go and get her?"
+    mc "I will go and tell the others."
+    y 1k "I will try."
     return
 
 label y_rt:
@@ -88,7 +88,8 @@ label y_rt:
     "I gently open the door..."
     "{cps=*1}Excuse m--{/cps}{nw}"
     scene black #This is where the lunchroom will be, or maybe this will be one of "those" scenes
-    ""#wut
+    "The room became silent and everyone turned their heads towards me."#wut
+    return
 
 
 label launch_roll:
@@ -121,10 +122,12 @@ label launch_auto:
         m "Okay, let it be."
         m "Auto will take care of this."
     "And so it did."
-    "The launch continiued normally."
+    call launch_suc
     return
 
 label launch_suc:
+    m "That worked!"
+    m "We are safe for the moment."
     m "Alright, seperation of the last stage in 20 seconds."
     s "Um~"
     s "I think the telescope is below our target altitude."
@@ -135,3 +138,4 @@ label launch_suc:
     m "Sayori, not on the main line!"
     s "Eh!{nw}"
     s "Sorry!"
+    return

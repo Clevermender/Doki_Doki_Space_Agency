@@ -258,6 +258,7 @@ label script_main:
             $ nat_engi = False
         "Yuri.":
             $ nat_engi = False
+            call y_rt
         "Natsuki.":
             $ nat_engi = True
         "Sayori.":
