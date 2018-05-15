@@ -64,17 +64,22 @@ label do_have_time:
     return
 
 label y_rt:
+    scene bedroom
     "Well it's time to work on this project."
     "I'm going to help Yuri."
     "She is apparently working with communcations and control, and that is not really like her."
     "But said that she wanted to try it, because she wanted to interact with people more."
+    scene kitchen
     "And we all now she don't like it too much."
     "I look at my watch, its...."
     mc "10:32!"
     "And the bus arrives in about 5 minutes."
     "I have still not had breackfast."
     "I will have to eat something at the facility when i arrive."
+    pause 2.0
+    scene house
     pause 5.0
+    scene black
     #this is where the reception BG will be placed, if there even will be one, unless we will use a corridor BG.
     "After a 50 minute bus ride, i finally arrive."
     "I'm starving."
@@ -122,7 +127,6 @@ label launch_auto:
         m "Okay, let it be."
         m "Auto will take care of this."
     "And so it did."
-    call launch_suc
     return
 
 label launch_suc:

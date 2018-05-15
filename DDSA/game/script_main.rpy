@@ -165,6 +165,7 @@ label script_main:
     mc "But anyway, whats about these papers?"
     "I tried to reach them, but Monika grabed my hand and directed it away from the papers."
     m 3e "As i said, i will talk about that later."
+    hide monika
     "I looked at them again from a distance and saw that the icon is the same as the emblem on the arm of the man."
     "I sigh and walk to one of the desks."
     "Monika is constantly looking in my direction."
@@ -240,7 +241,9 @@ label script_main:
     show sayori 1n at t21 zorder 2
     s "About what?"
     m 2j "We are starting a new project for the club."
-    show yuri 2f at l33 zorder 2
+    show yuri 2f at l31 zorder 2
+    show sayori 1n at t32 zorder 2
+    show monika 1b at t33 zorder 2
     y "A new project?"
     #Im at school, so either do the pose while im at school, or i will do it when i come home, depending on who gets here first.
     n "Can't we have any free time in the club?"
@@ -249,6 +252,11 @@ label script_main:
     m "We are getting our own space agency!"
     #Skipping is just a place holder, and Gritz is wokring on dialuge for reactions of the club members.
     call screen dialog("Skipping to assigments the next day.", ok_action=Return())
+    stop music
+    hide monika
+    hide sayori
+    hide yuri
+    scene black
 
     "Time to choose who to help."
     menu:
@@ -273,6 +281,7 @@ label script_main:
 
     "Skipping to launch day."
     pause 5.0
+    stop music
 
     m "Let's begin with the launch checklist." #Wait... Why does Sayori say like... nothing in these parts
     m "T minus 85 secounds to launch."
@@ -354,6 +363,8 @@ label script_main:
         m "okay, let it be."
         m "Auto will take care of this."
         call launch_auto
+        m "Yeah, it looks like...."
+        call launch_suc
     pause 5.0
     if lau_nch1:
         m "And this marks the day of a sucsessful launch!"
