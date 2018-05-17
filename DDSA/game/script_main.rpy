@@ -119,13 +119,13 @@ label script_main:
     "Monika went to the teacher's desk and put the papers on it."
     "I walked to the desk to have a look at the papers."
     pause 0.05
-    "As i do, Monika jumps infront of me out of nowhere."
+    "As I do, Monika jumps in front of me out of nowhere."
     show monika 1h at face
     m 2g "{cps=*1}What d-{/cps}{nw}"
     "I got scared and tried to evade."
     "But I was between two desks."
-    "I was supposed to place my foot on the floor, but instead, I place it on one of the desk's supporting legs..."
-    "And becouse my reaction time is very bad, I did not stop my fall."
+    "I was supposed to place my foot on the floor, but instead, I placed it on one of the desk's supporting legs..."
+    "And becouse my reaction time was very bad, I didn't stop my fall."
     "I got some extra speed and instead of trying to stop, I rushed right into Monika."
     "We fall to the ground."
     m "{cps=*1}Whaa!?{/cps}{nw}"
@@ -139,7 +139,7 @@ label script_main:
     m 2i "Or you you think that its okay to force a girl against her own will?"
     "What?" #Is this like her?
     mc "What are you talking about?"
-    mc "I triped and fell!"
+    mc "I tripped and fell!"
     m 1h "And flew into my..."
     m 2g "My..."
     m 4l "My posture..." #
@@ -156,13 +156,13 @@ label script_main:
     m 4e "I know it was a accident."
     m 3n "And we can talk a little bit more open when its just you and me."
     m 4l "Right?"
-    "I do not really understand what she is pointing at."
-    "But i go along with her."
-    mc "Off course!"
+    "I don't really understand what she is pointing at."
+    "But I go along with her."
+    mc "Of course!"
     m 4e "So you want to talk about stuff like that!?"
     "I thought of what she said."
     "Now i feel really stupid."
-    mc "But anyway, whats about these papers?"
+    mc "But anyway, what about these papers?"
     "I tried to reach them, but Monika grabed my hand and directed it away from the papers."
     m 3e "As i said, i will talk about that later."
     hide monika
@@ -176,7 +176,7 @@ label script_main:
     "She was kinda down at the end of the last week."
     "I just rememberd."
     "I mumbled to myself."
-    mc "Depression..." #She should become a soviet tank, they dont have deppresion for shit.
+    mc "Depression..." #She should become a soviet tank, they dont have depresion for shit.
     "But she was happy again at the festival, and seems to be in her normal mood today."
     show sayori 1c at t22 zorder 2
     show monika 1e at t21 zorder 2
