@@ -19,4 +19,13 @@ label meme_route:
     m "Wait... Is that too much of a fourth wall break?"
     mc "..."
     mc "Mayoi is a better fourth wall breaker."
+    m "*cries*"
+    mc "Wait..."
+    mc "How can you say an asterick"
+    mc "how would you pronounce that"
+    m "*looks up*"
+    mc "..."
+    mc "Don't just say /"*look up*/"..."
+    'Y/'know what... This is bad comedy. Go read Konosuba if you want comedy.'
+    
     return
