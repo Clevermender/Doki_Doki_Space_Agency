@@ -13,4 +13,10 @@ label meme_route:
     call updateconsole("os.remove(\"characters/mc.chr\")", "Failed. Reason: WTH Monika")
     m "darnit!"
     call updateconsole("os.remove(\"characters/monika.chr\")", "Failed. Reason: monika.chr does not exist")
+    m "well..."
+    m "this is dank..."
+    m "I should work on the main project before this meme route shouldn't I..."
+    m "Wait... Is that too much of a fourth wall break?"
+    mc "..."
+    mc "Mayoi is a better fourth wall breaker."
     return
