@@ -427,3 +427,9 @@ label script_main:
         m "The fuel then started to leak and was ignited by the main engines heat or flame."
         m "This is only a theory though." #but thats just theory, a rocket failiure theory, thanks for surviving the so called humor. #In all seriousness, Matpat is actually a bad theorist. Esp. his Doki theories are badly reaserched and not well presented ｢Steeeal / An_Alt｣
     m "Okay everyone!" #Redundancy / a double okay everyone
+    m "This makes our next next mission clear."
+    if lau_nch1:
+        m "We are going interplanetary, and we reusing the same navigation system as last time."
+    else:
+        m "We are going interplanetary, and we need to make sure the automatic control system can solve problems on its own."
+        m "Like how the curisoity rover on mars got updated with an auto navigation system."
