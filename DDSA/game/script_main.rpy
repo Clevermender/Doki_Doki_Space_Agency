@@ -433,3 +433,5 @@ label script_main:
     else:
         m "We are going interplanetary, and we need to make sure the automatic control system can solve problems on its own."
         m "Like how the curisoity rover on mars got updated with an auto navigation system."
+        mc "That must be a big update..."
+        m "Please don't talk when i'm talking."

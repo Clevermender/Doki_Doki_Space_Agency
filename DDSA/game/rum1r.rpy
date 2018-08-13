@@ -4,7 +4,7 @@ label mars_route1:
     "We are going to mars."
     "This is real."
     "Though in a year, and we have to wait another year to get to mars."
-    if surface_rover:
+    if surface_rover: #I have to work on the script a lot more.
         "But we are sending a rover."
         "That means that we will get to explore a larger area."
         "I do not know anything about rovers, mars, or interplanetary space travel"
@@ -13,3 +13,4 @@ label mars_route1:
         "So i will have to ask her later."
         "But i don't think that she was very intrested before though."
         "She took engineering because its closest to baking."
+    else:
