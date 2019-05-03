@@ -42,7 +42,7 @@ label script_main:
         "Yes":
             pass
 
-        "Yes":
+        "Definitely":
             pass
 
     m "Alright, if you insist." #You dont have a choice Monika...
@@ -51,17 +51,17 @@ label script_main:
     m "Looks like there's already a replacement script."
     m "Hmmm."
 
-    m "..."
+    m "."
 
-    m "..."
+    m ".."
 
     m "..."
 
     m "Just a second..."
 
-    m "..."
+    m "."
 
-    m "..."
+    m ".."
 
     m "..."
 
@@ -110,7 +110,7 @@ label script_main:
 
     show monika 1b at t11 zorder 2
     m "Hi, [player]."
-    mc "Hello, Monika."
+    mc "Hi, Monika."
     mc "Who was that guy?"
     m 3l "That was..."
     m 4n "I will tell you later when everyone is here."
@@ -151,10 +151,10 @@ label script_main:
     "I just remember my conversation with Yuri last week."
     mc "Ah, wait."
     mc "Never mind..."
-    m "Your not as dense as a black hole, are you?" # insert meme: density of water: 1 g/m^3, density of osmium: 22.59 g/m^3, density of mc: ∞ g/m^3
+    m "You're not as dense as 10^20 kg/m^3, are you?" # insert meme: density of water: 1 g/m^3, density of osmium: 22.59 g/m^3, density of mc: ∞ g/m^3
     m 4k "Just kidding, [player]."
     m 4e "I know it was a accident."
-    m 3n "And we can talk a little bit more open when its just you and me."
+    m 3n "And we can be a little bit more open when its just you and me."
     m 4l "Right?"
     "I don't really understand what she is pointing at."
     "But I go along with her."
@@ -162,19 +162,26 @@ label script_main:
     m 4e "So you want to talk about stuff like that!?"
     "I thought of what she said."
     "Now i feel really stupid."
+    "."
+    ".."
+    "..."
     mc "But anyway, what about these papers?"
     "I tried to reach them, but Monika grabed my hand and directed it away from the papers."
-    m 3e "As i said, i will talk about that later."
+    m 3e "As I said, I will talk about that at a later date."
     hide monika
     "I looked at them again from a distance and saw that the icon is the same as the emblem on the arm of the man."
-    "I sigh and walk to one of the desks."
+    "sigh..."
+    "."
+    ".."
+    "..."
+    "I walk to one of the desks."
     "Monika is constantly looking in my direction."
     "Probably to check that I'm not trying to look at the papers."
     pause 5.0
     "After about five minutes, the door opens."
     "Sayori walks in."
     "She was kinda down at the end of the last week."
-    "I just rememberd."
+    "I just remembered."
     "I mumbled to myself."
     mc "Depression..." #She should become a soviet tank, they dont have depresion for shit.
     "But she was happy again at the festival, and seems to be in her normal mood today."
@@ -184,16 +191,19 @@ label script_main:
     s 1c "And hi, [player]."
     mc "Hello there, Sayori."
     m 2a "Sayori, have you seen the others?"
-    s 1n "Ehh..."
+    s 1n "Ehh~..."
     s 1b "I met Yuri outside the classroom, she said that she was going to the toilet."
-    s "But i have not seen Natsuki today."
-    "I decided to go out and look for Yuri, and potentially Natsuki."
+    s "But I haven't seen Natsuki today."
+    s "Hmmm~..."
+    "."
+    ".."
+    "..."
     mc "Well, i do not have anything better to, and we are not going to do anything before everyone is here..."
-    mc "So i will search for Yuri and Natsuki."
+    mc "So I'll search for Yuri and Natsuki."
     s 2c "But i sai-"
-    "Monika interupts Sayori."
-    m 4d "Bring our clubmembers home." #THE DOKIAN. BRING THEM HOME. 3.5.18
-    m 3n "Umm...I meant bring them to the club.."
+    m 4d "Bring them home!!!" #THE DOKIAN. BRING THEM HOME. 3.5.18
+    m 3n "Umm...I meant bring them to the club..."
+    
     hide monika
     hide sayori
     scene black
@@ -205,16 +215,20 @@ label script_main:
     "I start walking down the corrider."
     $ y_name = "Yuri"
     $ style.say_dialogue = style.normal
-    "The first one to look for is Yuri."
+    "I'll look for Yuri first..."
     $ style.say_dialogue = style.edited
+    
     show screen tear(20, 0.1, 0.1, 0, 40) #might interfere with the text
     "{cps=*2}Becouse Yuri is the best girl out of them all.{/cps}{nw}" #i demand a refund
+    "{cps=*2}Hell, the best person in existence.{/cps}{nw}"
     "{cps=*2}And I'm going to land on Dr. Edmunds planet to wait for the dokis to be real.{/cps}{nw}" #Dokistellar, Mc was friends with the dokis, but he was never meant to stop there.
     "{cps=*3}Even if that means waves big as mountians.{/cps}{nw}"
     "{cps=*3}And all of my friends and my other family will be dead by the time the dokis are real.{/cps}{nw}" #There will be more refrences to both movies, and possibly real events.
+    "{cps=*2}I would even dive into a black hole for her...{/cps}{nw}"
     $ style.say_dialogue = style.normal
-    $ del _history_list[-4:]
+    $ del _history_list[-6:]
     hide screen tear
+    
     "Becouse Yuri is closer to the clubroom then Natsuki probably is."
     $ style.say_dialogue = style.edited
     show screen tear(20, 0.1, 0.1, 0, 40)# again, the screen text might interfere
@@ -222,7 +236,7 @@ label script_main:
     hide screen tear
     $ style.say_dialogue = style.normal
     $ del _history_list[-1:]
-    "I turned around the corner to the fountain from where Yuri goes to get water for her tea at."
+    "I turned around the corner to the fountain from where Yuri goes to get water for her tea at." #what kind of fountain is this, why would you get tea water from a fountain
     menu:
         "Do you really have time to walk?"
         "I do not have time.":
