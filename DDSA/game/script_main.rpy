@@ -261,9 +261,10 @@ label script_main:
     y "A new project?"
     #Im at school, so either do the pose while im at school, or i will do it when i come home, depending on who gets here first.
     n "Can't we have any free time in the club?"
-    m "I have not even told you about the project."
+    m "I have yet to tell you all about it.."
     "Monika continues before Natsuki can say anything."
     m "We are getting our own space agency!"
+    #mc "you WOT now"???
     #Skipping is just a place holder, and Gritz is wokring on dialuge for reactions of the club members.
     call screen dialog("Skipping to assigments the next day.", ok_action=Return())
     stop music
