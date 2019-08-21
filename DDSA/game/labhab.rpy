@@ -86,14 +86,16 @@ label y_rt:
     "The first thing i do is to walk to the lunch room."
     "I arrive outside the lunchroom."
     "There are a a few doors leading to diffrent rooms."
-    "I'm hearing people talk in the lunch room, it sounds like someone is telling others what to do."
+    "I'm hearing people talk in the lunch room, it sounds like someone is doing a breafing."
     "I don't want to disrupt it so have to be a bit quiet."
     "Still, im starving..."
     "But they really leave me no choice."
     "I gently open the door..."
     "{cps=*1}Excuse m--{/cps}{nw}"
     scene black #This is where the lunchroom will be, or maybe this will be one of "those" scenes
+    ""
     "The room became silent and everyone turned their heads towards me."#wut
+
     return
 
 
